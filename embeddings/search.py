@@ -2,6 +2,9 @@ from typing import List, Dict, Any, Optional
 from .vector_store import VectorStore
 from .embedder import Embedder
 import json
+from config.settings import SEARCH_SETTINGS
+from embeddings.preprocess_deepseek import split_text as split_deepseek
+from embeddings.preprocess_simple import split_text as split_simple
 
 class DocumentSearch:
     """Система поиска по документам"""
@@ -9,6 +12,12 @@ class DocumentSearch:
     def __init__(self, vector_store: VectorStore, embedder: Embedder):
         self.vector_store = vector_store
         self.embedder = embedder
+    
+    def preprocess_query(self, query: str, language: str) -> str:
+        if SEARCH_SETTINGS.get('preprocess_type', 'simple') == 'deepseek':
+            return split_deepseek(query, language)
+        else:
+            return split_simple(query, language)
     
     def search(self, query: str, language: Optional[str] = None, 
                document_type: Optional[str] = None, top_k: int = 5) -> List[Dict[str, Any]]:
@@ -24,9 +33,9 @@ class DocumentSearch:
         Returns:
             Список найденных документов с метаданными
         """
-        return self.vector_store.search_by_text(
-            query, self.embedder, top_k, language, document_type
-        )
+        processed_query = self.preprocess_query(query, language or 'en')
+        query_embedding = self.embedder.embed_text(processed_query)
+        return self.vector_store.search(query_embedding, top_k=top_k, language=language, document_type=document_type)
     
     def search_multilingual(self, query: str, top_k: int = 5) -> Dict[str, List[Dict[str, Any]]]:
         """

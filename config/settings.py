@@ -29,6 +29,7 @@ SEARCH_SETTINGS = {
     'max_top_k': 30,     # Максимальное количество результатов
     'similarity_threshold': 0.3,  # Минимальный порог сходства
     'enable_fuzzy_search': True,
+    'preprocess_type': 'simple'  # or 'deepseek'
 }
 
 # Настройки LLM
