@@ -46,7 +46,7 @@ class DocumentChunker:
                         'sport': section_title if 'sport' in section_title.lower() else '',  # Simple extraction
                         'path': file_path
                     },
-                    chunk_id=f"{section_title}_{i}",
+                    chunk_id=f"{doc_id}_{section_title}_{i}",
                     language=language,
                     document_type=self._detect_document_type(text),
                     section=section_title
@@ -170,6 +170,8 @@ class DocumentChunker:
             
             for filename in os.listdir(lang_dir):
                 if filename.endswith('.txt'):
+                    if 'promotions' in filename:
+                        continue
                     file_path = os.path.join(lang_dir, filename)
                     chunks = self.process_document(file_path, lang)
                     all_chunks.extend(chunks)

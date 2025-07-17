@@ -1,7 +1,7 @@
 import os
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import Application, MessageHandler, CallbackQueryHandler, filters, ContextTypes
+from telegram.ext import Application, MessageHandler, CallbackQueryHandler, CommandHandler, filters, ContextTypes
 from langdetect import detect, DetectorFactory
 from bot.history_manager import HistoryManager
 from embeddings.chunker import DocumentChunker
@@ -29,13 +29,20 @@ class TelSuppBot:
         self._setup_handlers()
     
     def load_documents(self):
-        chunks = self.chunker.process_all_documents('data')
-        embeddings_data = self.embedder.embed_chunks(chunks)
-        self.vector_store.add_embeddings(embeddings_data)
+        # Efficiently (re)load only changed documents
+        stats = self.vector_store.load_documents('data', self.chunker, self.embedder)
+        logger.info(f"Document indexing stats: added {stats['added']}, updated {stats['updated']}, skipped {stats['skipped']}")
     
     def _setup_handlers(self):
-        self.application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, self.handle_message))
+        # Command handlers
+        self.application.add_handler(CommandHandler("start", self.start_conversation))
+        self.application.add_handler(CommandHandler("help", self.help_command))
+        self.application.add_handler(CommandHandler("stats", self.stats_command))
+        self.application.add_handler(CommandHandler("language", self.language_command))
+
+        # Callback & message handlers
         self.application.add_handler(CallbackQueryHandler(self.handle_callback))
+        self.application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, self.handle_message))
     
     async def handle_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         if update.effective_user is None or update.message is None or update.message.text is None:
@@ -43,20 +50,28 @@ class TelSuppBot:
             return
         user_id = update.effective_user.id
         message_text = update.message.text.strip()
-        if message_text.lower() == 'старт':
-            await self.start_conversation(update, context)
-            return
-        user_language = self.user_languages.get(user_id, 'en')
+        # Auto-detect language and store preference
+        query_language = 'en'
+        try:
+            query_language_detected = detect(message_text)
+            if query_language_detected in ['en', 'ru']:
+                query_language = query_language_detected
+                self.user_languages[user_id] = query_language
+        except Exception as e:
+            logger.warning(f'Language detection failed: {e}')
+
+        user_language = self.user_languages.get(user_id, query_language)
         await update.message.reply_chat_action('typing')
         try:
-            query_language = detect(message_text)
-            if query_language not in ['en', 'ru']:
-                query_language = 'en'
             processed_query = self.search.preprocess_query(message_text, query_language)
             contexts = self.search.get_multilingual_context(processed_query, top_k=15)
             doc_context = contexts.get(query_language, '') or next(iter(contexts.values()), '')
             history = self.history_manager.get_history(user_id)
             response = self.llm.generate_support_response(message_text, doc_context, history, language=user_language)
+            if '[ESCALATE]' in response:
+                escalate_msg = 'Я вызываю оператора для помощи. Пожалуйста, подождите.' if user_language == 'ru' else 'I\'m calling an operator for assistance. Please wait.'
+                await update.message.reply_text(escalate_msg)
+                response = response.replace('[ESCALATE]', '')
             self.history_manager.add_message(user_id, 'user', message_text)
             self.history_manager.add_message(user_id, 'bot', response)
             await update.message.reply_text(response)
@@ -94,6 +109,24 @@ class TelSuppBot:
             await query.answer('History reset!')
             await self.start_conversation(update, context)
     
+    async def help_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Send help text."""
+        help_text = (
+            "Ask me anything about deposits, withdrawals, bonuses or rules. "
+            "Use /language to switch language, /stats for index stats, or simply type your question.")
+        if update.message is not None:
+            await update.message.reply_text(help_text)
+
+    async def stats_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Show vector store stats."""
+        stats = self.vector_store.get_stats()
+        if update.message is not None:
+            await update.message.reply_text(f"Indexed chunks: {stats.get('total_embeddings', 0)}")
+
+    async def language_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Show language selection keyboard."""
+        await self.start_conversation(update, context)
+
     def run(self):
         self.application.run_polling()
 

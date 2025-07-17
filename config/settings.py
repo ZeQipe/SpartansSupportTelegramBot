@@ -3,7 +3,11 @@
 """
 
 import os
+from dotenv import load_dotenv, find_dotenv
 from typing import Dict, Any
+
+# Load environment variables from a .env file if present (helps when running tests)
+load_dotenv(find_dotenv())
 
 # Настройки чанкинга
 CHUNK_SETTINGS = {
@@ -13,7 +17,8 @@ CHUNK_SETTINGS = {
 
 # Настройки OpenAI embeddings
 EMBEDDING_SETTINGS = {
-    'model_name': 'text-embedding-3',
+    # Preferred model; falls back automatically in Embedder if unavailable
+    'model_name': 'text-embedding-3-small',
     'device': None,  # Устройство (None для автоопределения)
     'dimensions': 1536
 }
@@ -66,4 +71,4 @@ SUPPORTED_LANGUAGES = ['en', 'ru']
 
 # API ключи (из .env)
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
