@@ -1,0 +1,12 @@
+# Основные зависимости
+python-telegram-bot==21.1
+chromadb>=0.4.0
+openai>=1.0.0
+tiktoken>=0.5.0
+numpy>=1.24.0
+httpx==0.28.1
+requests>=2.31.0
+
+# Дополнительные зависимости
+dataclasses-json>=0.6.0
+python-dotenv>=1.0.0

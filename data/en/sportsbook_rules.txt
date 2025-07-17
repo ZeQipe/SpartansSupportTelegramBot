@@ -1,0 +1,1151 @@
+General settlement rules apply for all sports if not stated in sport specific rules otherwise.
+- If the outcome of a market cannot be verified officially, we reserve the right to delay the settlement until official confirmation.
+- If a match is interrupted but subsequently resumed (from the point in the match at which it was interrupted) and played to a finish within 48 hours of the original scheduled kick off time, all bets will stand on the fixture.
+- Otherwise if the match is resumed but not finished within 48 hours of the original scheduled kick off time, this will be treated as an abandonment and bets on the original fixture will be void, except for those bets the outcome of which had already been determined, prior to the initial interruption in fixture.
+- If a game is interrupted for any reason, and is replayed in full, this will be treated as an abandonment and bets on the original fixture will be void, except for those bets the outcome of which had already been determined, prior to the initial interruption in fixture.
+- Specifically for the 3x3, Streetball and Big3 match versions of the sport, settlement will be based on official competition rules. Where a match starts but is not completed, bets will be void unless the specific market outcome is already determined.
+- In 2-Way markets Push rules apply unless otherwise stated below. Stakes on single bets are returned, and in multiples/parlays the selection is treated as a non-runner.
+- If markets were offered when the outcome was already known, we reserve the right to void any betting.
+- If it is not an obvious mistake in the name then bets will stand.
+- In the case of any obviously incorrectly displayed or calculated prices, we reserve the right to void betting. This includes a deviation of more than 100% in the pay-out compared to the market average.
+- For all matches that are played as part of a two-legged tie. Common for knockout tournaments where teams need to play each other twice to determine the winner. If in this case the aggregate score is equal at the end of regulation time in the 2nd leg. Overtime will be included to determine the outcome of 2nd leg match bets.
+- If coverage of the match is stopped or removed and the match finishes regularly, all markets will be settled according to the final result. If the outcome of a market cannot be verified officially, we reserve the right to void them.
+- In the case of an incorrect settlement of markets, we reserve the right to correct them anytime.
+- If a match does not adhere to the generally accepted format (e.g. unusual period length, counting procedure, format of a match etc.); we reserve the right to void any market.
+- If the rules or format of a match differ from our accepted norm, we reserve the right to void any market.
+- All markets are considered for regular time only unless otherwise stated.
+- If a match is not completed or not played (e.g. through disqualification, interruption, withdrawal, changes in draws etc.), all undecided markets are considered void.
+- Outright markets are classified as "All In Run Or Not," meaning they will be settled as a loss if the selected participant does not participate in the event. In the event of multiple winners, Dead Heat rules will be applied.
+- When bets are placed on In-Play Asian Handicap, match Scoreline is treated as 0:0 at the time of the placement. This applies only for soccer and eSoccer.
+- Video assistant referee (VAR) – If we have settled a bet and, due to a subsequent VAR decision, it becomes apparent that such settlement was incorrect, we reserve the right to reverse such settlement (provided that the VAR decision occurred prior to the conclusion of the match or other time frame relating to the bet). Bets which are placed between the occurrence of an incident which leads to a VAR review and the related VAR decision will be deemed void unless the VAR review (and subsequent decision) did not ultimately alter the decision made by the on-field officials or the VAR review (and subsequent decision) altered the decision made by the on-field officials but did not have any material influence on the bet(s) in question. All bets which were not influenced by the VAR review will stand.
+- All player selections will be considered active if a player enters the field/court/rink etc. as an active player at any point of the match, regardless of how long he plays.
+
+Soccer
+1. All markets (except halftime, first half markets, overtime and penalty shoot out) are considered for regular time only unless otherwise stated.
+2. If a match is interrupted and continued within 48h after initial kickoff, all open bets will be settled with the final result. Otherwise, all undecided bets are considered void.
+3. Regular 90 Minutes: Markets are based on the result at the end of a scheduled 90 minutes play unless otherwise stated. This includes any added injury or stoppage time but does not include extra-time, time allocated for a penalty shootout or golden goal.
+4. In case of unusual time periods (e.g. 3 periods of 30 minutes each), bets will stand as long as the total statutory time of the match is between 45 minutes and 120 minutes.
+5. If the goal is scored just after the bet was accepted, then the bet will still be valid.
+Settlement and cancellation rules
+1. If the market remains open when the following actions have already taken place: goals, red or yellow-red cards and penalties, we reserve the right to void any/all betting.
+2. In case a match gets abandoned before the final whistle, all undecided markets will be declared void.
+3. If a match is interrupted or postponed and is not continued within 48h after the initial kick-off date betting will be void.
+4. If the team names or category are displayed incorrectly, we reserve the right to void betting. If it is not an obvious mistake in the name then bets will stand.
+
+Match Abandonments - Live
+1. Official matches abandoned before the completion of 90 minutes play will be void except for those tickets the outcome of which has already been determined at the time of abandonment.
+2. Friendly matches abandoned before the completion of 80 minutes play will be void except for those tickets the outcome of which has already been determined at the time of abandonment.
+Booking markets
+1. Yellow card counts as 1, red card counts as 2. Second yellows are ignored for settlement purposes (e.g. maximum card count per player is 3).
+2. Settlement will be made according to all available evidence of cards shown during the regular 90 minutes play.
+3. Cards shown after the match are not considered.
+4. Cards for non-players (already substituted players, managers, players on bench) are not considered.
+
+Booking Points Markets
+1. Yellow cards count as 10 points and red or yellow red cards as 25. The 2nd yellow for one player which leads to a yellow red card is not considered. As a consequence one player cannot cause more than 35 booking points
+2. Settlement will be made according to all available evidence for cards shown during the regular 90 minutes play.
+3. Cards shown after the match are not considered.
+4. Cards for non-players (already substituted players, managers, players on bench)are not considered.
+
+Corner Markets
+1. Corners awarded but not taken are not considered.
+
+Next Goalscorer
+1. Own goals will not be considered for Next Goalscorer settlement purposes and are ignored.
+2. All players who took part in the match are considered as runners. If for any reason an unlisted player scores a goal all bets on listed players stand. If a player is listed but does not take part in the match, all related bets made on the player will be considered as void
+3. Market will be settled based on the official data
+
+Anytime Goalscorer
+1. Own goals will not be considered for Anytime Goalscorer settlement purposes and are ignored.
+2. All players who took part in the match are considered as runners. If for any reason an unlisted player scores a goal all bets on listed players stand. If a player is listed but does not take part in the match, all related bets made on the player will be considered as void.
+3. Market will be settled based on official data
+
+Interval Markets
+1. Markets will be settled based on the goal time announced by TV. If this is not available, the time according to the match clock is considered.
+2. Goal Markets are settled based on the time the ball crosses the line, and not the time the kick is made.
+3. Corner interval markets are settled based on the time the corner kick is taken and not the time the corner is conceded or awarded.
+4. Booking interval markets are settled based on the time the card is shown and not the time the infringement is made.
+5. Offsides will be settled based on the time when the referee gives the decision. This rule will be applied to any video assistant referee (VAR) situation.
+6. Penalty markets will be settled based on the time when the referee gives the decision. This rule will be applied to any video assistant referee (VAR) situation. Penalties awarded but not taken are not considered.
+7. For all 5 min/15 min interval markets, related to interval minutes 41-45/31-45, events (goals, corners) in added injury or stoppage time will be accounted for.
+8. Events must happen between 0:00 and 09:59 to be classed in the first 10 minutes (e.g. a time period 11 to 20 minutes is 10:00 to 19:59). The designated 10 minute period must be completed for the bet to stand (unless the outcome of the specific market is already determined).
+
+Next scoring type
+- Freekick: The goal has to be scored directly from the freekick or corner to qualify as a goal by freekick. Deflected shots count as long as the freekick or corner taker is awarded the goal
+- Penalty: Goal must be scored directly from the penalty. Goals after a rebound of a missed penalty do not count
+- Own Goal: If goal is declared as an own goal
+- Header: The scorers last touch has to be with the head
+- Shot: Goal has to be with any other part of the body than the head and the other types do not apply - No Goal
+Will A Goal Be Scored Between xx-xx Mins?
+- Any goals in injury time count towards the bet. For example, a goal scored on 90+ minute added time counts towards the 76 - 90 minutes range.
+
+Asian Handicap
+1. Basic Concept: Asian handicap betting aims to level the playing field between two teams by giving one team a hypothetical advantage or disadvantage before the game starts. This is done by applying a handicap to the final result of the match.
+2. Handicap Values: Asian handicap bets typically involve quarter goals (0/+0.5. 0/-0.5), whole goals (+1, -1), and half goals. For example, a team might have a handicap of -0.5, -1.0, -1.5, etc., which means they need to win by a certain margin for the bet to win. Conversely, a team might have a handicap of +0.5, +1.0, +1.5, etc., which means they can lose by a certain margin or even draw for the bet to win.
+3. Outcome Scenarios:
+Win: If you bet on a team with a negative handicap and they win by more than the handicap value, your bet wins. Likewise, if you bet on a team with a positive handicap and they win, draw, or lose by less than the handicap value, your bet wins.
+Loss: If you bet on a team with a negative handicap and they draw or lose, your bet loses. Similarly, if you bet on a team with a positive handicap and they lose by more than the handicap value, your bet loses.
+Push: If the actual result matches the handicap exactly, your stake is refunded.
+Half won: This outcome occurs when you place a handicap bet, and half of your bet is deemed a winner. Possible with quarter handicaps
+Half lost: Is the outcome where only half of your bet is lost. Possible with quarter handicaps
+4. Examples and Settlement rules for quarter, half and whole goals handicap markets Quarter Handicap:
+If you bet on the favorite (e.g., Team A -0.25): If Team A wins, you win the full amount of your bet.
+If the match ends in a draw, you'll get half of your stake back, and the other half will be considered a loss.
+If Team A loses, you lose the entire bet.
+If you bet on the underdog (e.g., Team B +0.25):
+If Team B wins or the match ends in a draw, you win the full amount of your bet. If Team B loses, you lose the entire bet. Half Handicap:
+If you bet on the favorite (e.g., Team A -0.5): Team A must win for you to win the bet.
+If the match ends in a draw or Team A loses, you lose the bet. If you bet on the underdog (e.g., Team B +0.5):
+Team B must either win or draw for you to win the bet. If Team B loses, you lose the bet.
+
+Whole Handicap
+Settlement for whole handicaps is simpler: If you bet on the favorite (e.g., Team A -1):
+Team A must win by more than one goal for you to win the bet. If Team A wins by exactly one goal, it's a push (your stake is refunded). If Team A draws or loses, you lose the bet.
+If you bet on the underdog (e.g., Team B +1):
+Team B must either win or draw, or lose by less than one goal for you to win the bet.
+If Team B loses by exactly one goal, it's a push (your stake is refunded). If Team B loses by more than one goal, you lose the bet
+1. Benefits: Asian handicap betting eliminates the possibility of a draw outcome, providing more betting options and potentially higher winning probabilities.
+2. If Asian Handicap bets are placed In-Play, goals that have been awarded prior to bet placement are discounted for settlement purposes. The scoreline is treated as 0-0 at the time of bet placement
+
+American Football
+1. Unless otherwise stated, all Pre-match bets on American Football are determined on the basis of the result after the extra (over) time. This does not apply to Live-betting where all bets are settled after Regular time unless otherwise stated.
+2. In case of any delay (rain, darkness…) all markets remain unsettled and the trading will be continued as soon as the match continues.
+3. All offered players are considered as runners.
+4. If no further touchdown is scored, the market will be voided.
+5. Players which are not listed are considered as "Competitor1 other player" or "Competitor2 other player" for settlement purposes. Note this does not include players which are listed without an active price.
+6. Players of the Defense - or Special team are considered as "Competitor1 d/st player" or "Competitor2 d/st player" for settlement purposes, even if the player is listed as a dedicated outcome.
+7. The market will be settled based on TV insert and statistics provided by official associations unless there is clear evidence that statistics are not correct.
+8. In the event of a venue change, all markets are considered void.
+9. In case of abandoned or postponed matches all undecided markets are considered void unless the match continues in the same NFL weekly schedule (Thursday - Wednesday local stadium time).
+10. If the teams are displayed incorrectly, we reserve the right to void betting.
+11. Touchdown / Field Goal Markets (including ‘Time of First’, ‘Longest Scored’, ‘Shortest Scored’, and ‘Team to Score Longest’): In the event of no score (via the specified method) bets will be void.
+12. Will Either Team Score 3 Unanswered Times - Forecast whether either team will score 3 consecutive times during the game. A Score excludes any PAT’s (point after touchdown or 2 point conversions)
+13. New first down & yards gained by play penalties will not be considered for settlement purposes
+14. In case of no plays, all markets will be settled with the next play or voided if the drive ends before reaching the respective play
+15. In case of the drive ended before the respective play number was reached, all markets for the respective play will be considered void. This includes punts and field goals
+16. Field goal yardage will not be considered for total yards gained in a play
+17. A touchdown is credited as a first down only when the offense scores a touchdown
+
+Tennis
+1. In case of a retirement and walk over of any player all undecided bets are considered void.
+2. In case of any delay (rain, darkness…) all markets remain unsettled and the trading will be continued as soon as the match continues.
+3. If penalty point(s) are awarded by the umpire, all bets on that game will stand.
+4. In case a match is finished before certain points/games are finished, all affected point/game related markets are considered void.
+5. If the players/teams are displayed incorrectly, we reserve the right to void betting.
+6. If a player retires all undecided markets are considered void.
+7. If a match is decided by a Match tie-break then it will be considered to be the 3rd set.
+8. Every tie-break or Match tie-break counts as 1 game.
+
+Basketball
+1. Markets do not consider overtime unless otherwise stated.
+2. Who scores Xth point? (incl. ot)- If a match ends before the Xth is reached, this market is considered void.
+3. Which team will win race to x points? (incl. ot)- If a match ends before the Xth is reached, this market is considered void.
+4. Will there be overtime?- Market will be settled as yes if at the end of regular time the match finishes in a draw, regardless of whether or not overtime is played.
+5. There must be 5 minutes or less of scheduled game time left for bets to have action, unless the specific market outcome is already determined.
+6. In the event that a match does not finish in a tie, but overtime is played for qualification purposes, the markets will be settled according to the result at the end of regular time.
+7. Will They Make The Playoffs? The NBA’s play in tournaments is not considered as part of the playoffs for settlement purposes.
+
+Baseball
+1. The name of the so-called starting pitcher has no relevance on how offers are settled
+2. All pre-match bets do not include extra innings unless otherwise stated. This also applies to Live-betting where all bets are settled after Regular time unless otherwise stated.
+3. Which team wins race to x points?- In a 2-way market if an inning ends before the Xth point is reached (incl. extra innings), this market is considered void.
+4. Who scores the Xth point- If an inning ends before the Xth point is reached (incl. extra innings), this market is considered void.
+5. Possible extra innings are not considered in any market unless otherwise stated.
+6. If a match is interrupted or canceled and won’t be continued on the same day, all undecided markets are considered void. However, winner market bets are considered official if at least 5 innings are played; or 4.5 innings if the home team is winning.
+7. If markets remain open with an incorrect score or incorrect match status which has a significant impact on the prices, we reserve the right to void betting.
+8. For double header (shortened innings) matches, bets will be settled according to the official result.
+9. In the event of a Mercy Rule being called, all bets will stand on the score at the time.
+10. If a hit and an error occur within the same play, a hit will be considered for settlement purposes.
+11. If a player does not show up at the plate again but related player markets have been offered, undecided markets are considered void.
+12. A foul ball will always be considered a strike for settlement purposes.
+
+Cricket
+1. All match betting will be settled in accordance with official competition rules.
+2. If there is no official result, all bets will be void. An official result includes match results declared official by the governing body, determined using calculation methods (VJD, DLS, etc.) for matches interrupted by weather or external factors. Any match that finishes with a team walking off will result in all undecided markets being void.
+3. All markets do not consider super overs unless otherwise mentioned.
+4. Penalty runs are not considered in any over or delivery market (markets for multiple overs are not considered for this rule).
+Markets affected by loss of overs
+1. In T20/ODIs/Limited overs matches interrupted or abandoned due to external factors (including bad weather or any other delay), bets will stand if at least 80% of agreed scheduled overs at the time of bet acceptance (or the relevant market percentage of overs listed in these rules) were completed.
+2. If it was not possible to complete 80% (or the relevant market percentage of overs listed in these rules) of agreed scheduled overs at time of bet acceptance then bets will be void.
+3. Should the outcome of a bet be already determined before the interruption and no further play would possibly change the outcome of such bets, bets will be settled accordingly.
+4. If a match is declared a 'no result' bets will be void and staked money returned to the customer. If a match/market is canceled before a ball being bowled, and it is not rescheduled within 36 hours, bets on the match will be classified as void.
+5. For the Hundred, an over will consist of 5 legal deliveries, so a full innings will be made up of 20 overs. All other rules remain the same as other limited overs formats.
+Additional market explanations
+In addition to the rules as previously stated, please see additional market specific rules. These include Live and Pre-match. Match betting: double chance & draw no bet.
+- A tie will be considered void. Tied match; first-class matches
+- A tie is when the side batting in the 4th innings is bowled out when the scores are level.
+
+Runs in 1st over
+1. The 1st over must be completed for the bets to stand unless settlement has already been determined.
+2. If an innings ends during an over then that over will be deemed to be complete unless the innings is ended due to external factors, including bad weather, in cases all bets will be void, unless settlement already has been determined.
+3. In first-class matches, the market refers only to each team's innings.
+4. Extras and penalty runs in the particular over count towards settlement.
+5. For the Hundred, an over will consist of 5 legal deliveries, so a full innings will be made up of 20 overs. All other rules remain the same as other formats.
+
+Runs off 1st delivery
+1. The result will be determined by the number of runs added to the team total, or the first ball of the match.
+2. For settlement purposes, all illegal balls count as a delivery.
+Most Fours
+1. Only 'fours' scored from the bat ( off any delivery ) will count toward the total 'four' count.
+2. Overthrows and 'fours' all run will not count towards the market.
+3. Fours in a super over do not count.
+4. In first-class games, only fours in the first innings will count.
+Most Sixes
+1. Only 'sixes' scored from the bat ( off any delivery ) will count toward the total 'six' count.
+2. Overthrows and 'sixes' all run will not count towards the market.
+3. Sixes scored in a super over do not count.
+4. In first-class games, only first innings sixes count.
+Most Extras
+1. All wide deliveries, no balls, byes, leg byes, and penalty runs in the match count towards the final result.
+2. Penalty Runs do not count as Extras for the purposes of this market
+3. If there are runs off the bat at the same time extras are being scored, the runs off the bat do not count towards the extras tally.
+4. Extras in a super over don't count.
+5. In first-class games, only first innings extras will count.
+Most run outs conceded
+1. A run out 'conceded' means that a team member will be run out while batting.
+2. Run outs in a super over do not count.
+3. First class games, only first innings runouts count.
+Highest first over
+1. The first over must be completed for bets to stand unless settlement has already been determined.
+2. In limited overs matches, if a match is shortened due to external factors after the start of the first innings, the market will be void.
+3. In first-class matches, the market refers only to each team's first innings.
+4. Extras and penalty runs contribute towards settlement.
+5. For the Hundred, an over will consist of 5 legal deliveries, so a full innings will be made up of 20 overs. All other rules remain the same as other formats.
+Highest first group of overs
+1. If the specified number of overs are not complete the bet will be void, unless the team is all out, declares, reaches their target or settlement of the bet has already been determined.
+2. In limited overs matches, if the match is shortened due to external factors after the start of the first innings, the market will be void.
+3. In first-class matches the market only refers to each team's first innings.
+4. For the Hundred, an over will consist of 5 legal deliveries, so a full innings will be made up of 20 overs. All other rules remain the same as other formats.
+Highest first partnership
+1. If the batting team reaches the end of their allotted overs, reaches their target or declares before the first wicket falls, the result will be the total amassed.
+2. For settlement purposes, a batsman retiring hurt does not count as a wicket.
+3. In limited overs matches, bets will be void if the innings has been reduced to external factors, including bad weather unless the settlement is already determined.
+4. In drawn first-class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+5. In first-class matches the market only refers to each team's first innings.
+Match Fours
+1. Only fours scored from the bat ( off any delivery- legal or not) will count towards the total fours.
+2. Overthrows, all run fours and extras do not count.
+3. Fours in a super over do not count.
+Match Sixes
+1. Only sixes scored off the bat ( off any delivery - legal or not) will count towards the total sixes count.
+2. Overthrows, all run sixes and extras do not count.
+3. Sixes in a super over do not count.
+Match Extras
+1. All wide deliveries, no balls, byes and leg byes in the match count towards the final result.
+2. Penalty Runs do not count as Extras for the pur-poses of this market
+3. If there are runs off the bat at the same time extras are being scored, the runs off the bat do not count towards the extras tally.
+4. Extras in a super over don't count.
+5. In first-class games, only first innings extras will count.
+Match Runouts
+- Run Outs in a super over do not count.
+Maximum over in a match
+1. All runs, including extras, count towards settlement.
+2. Super overs do not count.
+Match top batsman
+1. Highest batting score by an individual batsman.
+2. When 2 or more batsmen score the same amount of runs, dead heat rules apply.
+3. Runs scored in a super over do not count.
+4. If a player was named at the toss, but later is removed as a substitute, that player will still be counted, as will the replacement player.
+Match top Bowler
+1. The bowler who takes the most wickets in the match.
+2. In limited overs matches the bets will be void if it has not been possible to complete at least 50% of the overs scheduled to be bowled in each innings at the time the bet was placed due to the external factors, including bad weather.
+3. If two or more bowlers end up taking the same amount of wickets, the bowler who conceded the least amount of runs will be declared the winner.
+4. If 2 or more bowlers end up with the same amount of wickets and runs conceded, dead heat rules apply.
+5. Wickets taken in a super over do not count.
+6. If a player was named at the toss, but later is removed as a substitute, that player will still be counted, as will the replacement player.
+Man of the Match
+1. Dead heat rules apply.
+2. If no ‘man of the match’ is announced, bets will be void.
+Runs off delivery
+1. For settlement purposes, all illegal balls count as deliveries. For example, if an over starts with a wide, then the first ball will be settled as 1 and, although there has not been a legal ball bowled, the next ball will be deemed as delivery 2 for that over.
+2. If a delivery leads to a free hit or a free hit is to be re-bowled because of an illegal delivery, the runs scored off the additional delivery do not count.
+3. All runs, whether off the bat or not, are included. For example, a wide with three extra runs taken equates to 4 runs in total off that delivery.
+Runs in an over
+1. The specified over must be completed for the bets to stand unless settlement has already been determined.
+2. If an innings ends in that over, the over will be determined as completed.
+3. If an over does not commence for any reason, the bet will be considered void.
+4. Extras and penalty runs do count towards settlement.
+Boundary in an Over
+1. Only boundaries scored from the bat ( off any delivery - legal or not) will count as a boundary.
+2. All run fours and extras do not count as boundaries.
+Wickets in an Over
+1. Any wickets in an over will count, including run outs.
+2. A batsman retiring hurt does not count as a wicket.
+3. If a batsman is timed out or retired out, the wicket will be deemed to have been taken the ball before.
+4. For the Hundred, an over will consist of 5 legal deliveries, so a full innings will be made up of 20 overs. All other rules remain the same as other formats.
+Odd/Even runs
+- Zero will be deemed as Even.
+Runs in groups of Overs
+- If the specified amount of overs are not completed, the bet will be void, unless the team is all out, declares, reached their target or settlement of the bet has already been determined
+Wickets in groups of overs
+1. If the specified amount of overs are not completed, the bet will be void, unless the team is all out, declares, reached their target or settlement of the bet has already been determined.
+2. A batsman retiring hurt does not count as a wicket.
+3. If a batsman is timed out or retired out, the wicket will be deemed to have been taken the ball before.
+4. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the specified overs have been bowled at the time the bet was placed due to external factors, including bad weather, unless settlement of the bet has already been determined.
+5. For the Hundred, an over will consist of 5 legal deliveries, so a full innings will be made up of 20 overs. All other rules remain the same as other formats.
+Runs in a Session
+1. Total amount of runs in a session, regardless of which team scores them.
+2. If there has been fewer than 20 overs bowled in a session, bets will be void,
+unless settlement has already been reached.
+Innings Runs
+1. The number of runs scored in specific innings.
+2. In first class or Test matches at least 60 overs must be bowled in the
+Innings, unless the team is all out or declares.
+Innings Wickets
+1. Retired hurt does not count as a wicket.
+2. In first class or Test matches at least 60 overs must be bowled in the
+Innings, unless the team is all out or declares.
+Innings Fours
+1. Specific innings fours. rules same as total match fours.
+2. In first class or Test matches at least 60 overs must be bowled in the
+Innings, unless the team is all out or declares.
+Innings Sixes
+1. Specific innings sixes. rules same as total match sixes.
+2. In first class or Test matches at least 60 overs must be bowled in the
+Innings, unless the team is all out or declares.
+Innings Extras
+1. How many extras will be added to a teams score as a whole inning.
+2. In first class or Test matches at least 60 overs must be bowled in the
+Innings, unless the team is all out or declares.
+Innings run outs
+1. How many run outs will occur in a set innings
+2. In first class or Test matches at least 60 overs must be bowled in the
+Innings, unless the team is all out or declares.
+Maximum overs in an innings
+- How many runs will be scored in the highest scoring over of the innings.
+Innings runs - Odd/Even
+1. Total innings score judged to be odd or even. 0 counts as even
+2. In first class or Test matches at least 60 overs must be bowled in the
+Innings, unless the team is all out or declares.
+Innings to finish with a boundary
+1. Only boundaries scored from the bat (off any delivery - legal or not) will count as a boundary.
+2. All run fours and extras do not count as boundaries.
+3. In limited overs matches, bets will be void if there is any reduction in the number of overs scheduled to have been bowled at the time the bet was placed due to external factors, including bad weather.
+Over/Under Wides
+- For settling purposes, over and under wides is for the nominated bowling team bowling the wides
+Exact runs in Innings
+- In limited over matches, bets will be void if there is any reduction in the number of overs to have been bowled at the time the bet was placed due to external factors, including bad weather.
+Top batsmen in Innings
+1. The batsmen (or appear as a substitute) who has the highest individual run score of that specified innings.
+2. For Limited overs matches at least 40% of the originally allotted overs in that team’s innings must be bowled for bets to stand unless a team is all out or has reached its target before reaching this amount, or bets will be void.
+3. Players must be in the starting XI, or come on as a concussion replacement, or bets on that selection will be voided.
+4. Players need not bat for bets on that selection to stand.
+5. In the case of two or more batsmen winning with the same total the winner shall be the one who has faced the fewest deliveries, if that is the same the winner shall be who has hit the most boundaries, if there is still no clear winner then bets will be void.
+6. For First Class or Test Matches bets stand for the 1st innings of the match only, unless expressly stated and a minimum of 60 overs must be bowled in the innings unless the team is all out or declares.
+Top Bowler in an Innings
+1. The bowler (or appear as a substitute) who has taken the most amount of wickets in specified innings.
+2. For Limited overs matches at least 40% of the originally allotted overs in that team’s innings must be bowled for bets to stand unless a team is all out or has reached its target before reaching this amount, or bets will be void.
+3. Players must be in the starting XI, or come on as a concussion replacement, or bets on that selection will be voided.
+4. Players need not bat for bets on that selection to stand.
+5. In the case of two or more batsmen winning with the same total the winner shall be the one who has faced the fewest deliveries, if that is the same the winner shall be who has hit the most boundaries, if there is still no clear winner then bets will be void.
+6. For First Class or Test Matches bets stand for the 1st innings of the match only, unless expressly stated and a minimum of 60 overs must be bowled in the innings unless the team is all out or declares.
+Last man standing
+1. Which batsmen will be not out upon completion of the innings.
+2. If there are two or more batsmen who are not out at the completion of the innings, the winner for the purpose of settlement will be the last batsmen to face a ball ( legal or not).
+3. Players will not to be deemed to have been not out if they were no longer at the crease having retired hurt or did not bat.
+4. In limited overs matches, bets will be void if, subsequent to placing the bet, the innings has been reduced in any way due to external factors, including bad weather.
+Batsman Runs
+1. How many runs will the nominated batsmen (or appear as a substitute) score in specific innings.
+2. Pre-Match bets will stand regardless of whether the batsman is at the crease when a ball is bowled as long as the team had the opportunity to face at least 80% of the allocated overs at the time the bet was struck.
+3. If a batsman is not in the starting 11, the bet will be void.
+4. If a batsmen retires hurt and returns, the additional runs will count towards his innings total.
+5. If a batsmen retires and doesn't return, the bet settlement will be on the current score the batter has as a retired batsman.
+6. Runs scored in a super over don't count.
+Batsman Fours
+1. How many boundaries a batsman will hit, including of illegal deliveries.
+2. All run fours do not count.
+3. Fours scored in a super over do not count.
+4. Overthrows and extras do not count.
+5. Pre-Match bets will stand regardless of whether the batsman is at the crease when a ball is bowled as long as the team had the opportunity to face at least 80% of the allocated overs at the time the bet was struck.
+Batsman sixes
+1. How many sixes a batsman will hit, including off illegal deliveries.
+2. All run sixes, do not count.
+3. Sixes scored in a super over do not count.
+4. Overthrows and extras do not count.
+5. Pre-Match bets will stand regardless of whether the batsman is at the crease when a ball is bowled as long as the team had the opportunity to face at least 80% of the allocated overs at the time the bet was struck.
+Batsman milestones
+1. Will a batsman reach 'x' runs.
+2. Only runs coming from the bat count.
+3. Including legal and illegal deliveries.
+Rabbit runs
+1. The number 11 is taken to be the last man to come out to bat in the innings, regardless of previously stated batting order.
+2. If the innings in completed without the number 11 coming to the crease, that batsmen will be deemed to have scored 0.
+Method of next dismissal
+1. How will the named batsman be out?
+2. If the specified batsman is not out, bets will be void.
+3. If the specified batsmen retires out and does not return, the bets will be void.
+4. If the retired batsman does return, the bets will stand.
+5. Caught and bowled is included in Fielder Catch.
+Fall of next wicket
+1. How many runs will the batting team be on when the next wicket falls'
+2. If the batting team reaches the end of their allotted overs, reaches their target or declares before the specified wicket falls, the result will be the total amassed.
+3. The retiring batsman does not count as a wicket.
+Next man out
+- If either batsman retires hurt or the batsman at the crease is different from those quoted, the bets placed on both batsmen will be declared void.
+Method of next dismissal
+- If a specified wicket does not fall, bets will be void.
+Total Player Performance
+- Points are allocated in this manner: 1 point per run, 20 points per wicket, 10 points per catch and 25 points per stumping
+Batsman Match Bet
+1. Both players must be named in the starting 11 (or appear as a substitute).
+2. If either does not get named then bets are void.
+3. Both batsmen need to bat for the market to be valid.
+4. Runs in a super over do not count.
+Bowler Matchbet
+1. Both players must be named in the starting 11 (or appear as a substitute). If either does not then subsequently bowl all bets are still settled.
+2. Wickets in a super over do not count.
+All-rounder match bet
+1. Points are scored as follows: 1 point per run. 20 points per wicket. 10 points per catch. 25 points per stumping.
+2. Both players must be named in the starting 11. If either does not then subsequently bat or bowl, all bets are still settled.
+3. Runs in a super over do not count.
+Keeper match bet
+- Same as 'Allrounder match bet above'
+Free Hit
+1. The result will be determined by the number of runs added to the team total, off the specified delivery.
+2. If the free hit is re-bowled because of an illegal delivery, the runs scored off the second free hit do not count.
+3. Extras and penalty runs will count towards settlement.
+Race to 'x' runs
+- All bets stand. If neither batsman reaches 'x' the markets will be settled as 'Neither'
+Next to hit a six
+- All bets stand. If neither batsman hits a six the markets will be settled as 'Neither'
+Next to take a wicket
+1. If none of the named bowlers take the next wicket, the market will be settled as 'none of the above'.
+2. A batsman retiring hurt does not count as a wicket.
+3. Run outs, Timed out, and any other method of dismissal not awarded to the bowler will be settled as 'none of the above'
+Winning Over
+1. The over in which over of the named team's innings be completed.
+2. All bets will be void if there is no official result.
+3. In limited overs matches, all bets will be void if, subsequent to placing the bet, the maximum overs possible are reduced in any way.
+Settlement and cancellation rules
+1. All match betting will be settled in accordance with official competition rules. If there is no official result, all bets will be void.
+2. In the case of a tie, if the official competition rules do not determine a winner then all bets will be void.
+3. In competitions where a bowl off or super over determines a winner, bets will be settled on the official result.
+4. In first-class matches, if the official result is a tie, bets will be settled as a dead heat between both teams. Bets on a draw will be settled as a loss.
+5. Dead Heat rule: in the event of a Dead Heat, selections that are settled due to the dead heat rule shall be paid as 'Half Win'. IE a initial 10 unit bet at 1.70 match winner would = 17.00 for a win. - A dead heat rule ( two declared winners half win each ) = 17.00/2 = 8.50 return to player on above example bet.
+6. Other markets in the given 'dead heat' match are settled as per normal settlement rules.
+7. For eCricket - If for any reason a match is deemed to be abandoned before the completion of the match, then all match bets will be void and stakes refunded unless an outcome/market has already reached an unconditional conclusion.
+Pre-match Market Details
+Match Betting - Who will win the match?
+1. All match betting will be settled in accordance with official competition rules.
+2. In matches affected by adverse weather, bets will be settled according to the official result. If there is no official result, all bets will be void.
+3. In the case of a tie, if the official competition rules do not determine a winner then dead heat rules will apply. In competitions where a bowl off or super over determines a winner, bets will be settled on the official result.
+4. In First Class Matches, if the official result is a tie, bets will be settled as a dead-heat between both teams. Bets on the draw will be settled as losers.
+5. If a match is abandoned due to external factors, then bets will be void unless a winner is declared based on the official competition rules. If a match is canceled then all bets will be void if it is not replayed or restarted within 36 hours of its advertised start time.
+Match Betting: Double Chance - Will the match result be either of the three options given?
+1. A tie will be settled as a dead heat.
+2. All match betting will be settled in accordance with official competition rules. If there is no official result, all bets will be void.
+Match Betting: Draw No Bet - Who will win the match given that all bets will be void if the match is a draw?
+1. A tie will be settled as a dead heat.
+2. All match betting will be settled in accordance with official competition rules. If there is no official result, all bets will be void.
+Tied Match - Will the match be tied?
+1. All bets will be settled according to the official result.
+2. If the match is abandoned or there is no official result, all bets will be void.
+3. For First Class matches a tie is when the side batting in the fourth innings is bowled out when the scores are level.
+Toss Winner - Who will win the toss?
+- If no toss takes place, all bets will be void.
+Toss/Win Double - Who will win the toss, and then who will win the game?
+1. Toss Winner rules as above.
+2. Match Winner rules as above.
+Runs in First Over - How many runs will be scored in the first over of the match?
+1. The first over must be completed for bets to stand unless settlement has already been determined.
+2. If an innings ends during an over then that over will be deemed to be complete unless the innings is ended due to external factors, including bad weather, in which case all bets will be void, unless settlement has already been determined.
+3. In First Class matches the market refers only to each team’s first innings.
+4. Extras and penalty runs in the particular over count towards settlement
+Runs off First Delivery - How many runs will be scored off the first delivery of the match?
+1. The result will be determined by the number of runs added to the team total, off the first ball of the match.
+2. For settlement purposes, all illegal balls count as deliveries. For example, if the over starts with a wide, then the first delivery will be settled as 1 and, although there has not been a legal ball bowled, the next ball will be deemed as delivery 2 for that over. If the delivery leads to free hit, the runs scored off the additional delivery do not count.
+3. All runs, whether off the bat or not are included. For example, a wide with three extra runs taken equates to 4 runs in total off that delivery.
+4. In First Class matches the market refers only to each team’s first innings.
+Runs in Groups of Overs - How many runs will be scored in the first specified number of overs?
+1. If the specified number of overs are not complete the bet will be void, unless the team is all out, declares, reaches their target or settlement of the bet has already been determined before the reduction.
+2. In limited overs matches, bets will be void if the total innings is reduced at any stage to less than 80% of the stated maximum overs at the time the bet was placed, unless settlement of the bet was already determined.
+3. In First Class matches the market refers only to each team’s first innings.
+Wickets in Groups of Overs - How many wickets will fall in the first specified number of overs?
+1. If the specified number of overs are not complete the bet will be void, unless the team is all out, declares, reaches their target or settlement of the bet has already been determined.
+2. In limited overs matches, bets will be void if the total innings is reduced at any stage to less than 80% of the stated maximum overs at the time the bet was placed, unless settlement of the bet was already determined before the reduction.
+3. For settlement purposes, if a batsman is timed out or retired out then the wicket is deemed to have taken place on the previous ball.
+4. Retired hurt does not count as a dismissal.
+5. In First Class matches the market refers only to each team’s first innings.
+Runs in First Partnership - How many runs will the batting team have scored when the first wicket falls?
+1. If the batting team reaches the end of their allotted overs, reaches their target or declares before the first wicket falls, the result will be the total amassed.
+2. For settlement purposes, a batsman retiring hurt does not count as a wicket. In limited overs matches, bets will be void if the innings has been reduced due to external factors, including bad weather, if it has not been possible to complete at least 80% of the overs scheduled to be bowled in the innings, unless settlement has already been determined.
+3. Result will be considered determined if the lines at which the bet was placed is passed, or if a wicket has fallen.
+4. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+5. In First Class matches the market refers only to each team’s first innings.
+Method of First Dismissal - How will the first batsman be out?
+1. Retired hurt will not count as the first wicket.
+2. If the first batsman retires out, all bets will be void.
+3. If the specified wicket does not fall, all bets will be void.
+4. In First Class matches the market refers only to each team’s first innings.
+Match Fours - How many fours will be hit in the match?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. Only fours scored from the bat (off any delivery – legal or not) will count towards the total fours. Overthrows, all run fours and extras do not count.
+4. Fours scored in a super over do not count.
+Match Sixes - How many sixes will be hit in the match?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. Only sixes scored from the bat (off any delivery – legal or not) will count towards the total sixes. Overthrows and extras do not count.
+4. Sixes scored in a super over do not count.
+Match Run Outs - How many run outs will there be in the match?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. Run outs in a super over do not count.
+Maximum Over in Match - How many runs will be scored in the highest scoring over in the match?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined before the reduction.
+3. All runs, including extras, count towards settlement.
+4. Super overs do not count.
+Match Ducks - How many ducks will be scored in total in the match?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. A duck is classed as someone being dismissed for zero runs.
+4. Retired hurt does not count as a dismissal.
+5. Ducks in a super over do not count.
+Match Wides - How many wides will be scored in total in the match?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. Any runs resulting from a wide delivery, except penalty runs, will count towards the final total.
+4. Wides in a super over do not count.
+Match Extras - How many extras will be scored in total in the match?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. All wide deliveries, no balls, byes, leg byes and penalty runs in the match count towards the final result.
+4. If there are runs off the bat as well as extras from the same delivery, the runs off the bat do not count towards the final total.
+5. Extras in a super over do not count.
+Match Wickets - How many wickets will fall in the match?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. Retired hurt does not count as a dismissal.
+4. Wickets in a super over do not count.
+Match Top Batsman - Which batsman will score the most runs in the match?
+1. The result of this market is determined on the batsman with the highest individual score in the match.
+2. In limited overs matches, bets will be void if it has not been possible to complete at least 50% of the overs scheduled to be bowled in each innings at the time the bet was placed due to external factors, including bad weather.
+3. Top batsmen bets for First Class matches apply only to the first innings of each team, and will be void if fewer than 200 overs have been bowled, unless both first innings have been completed.
+4. If a player was named at the toss, but later is removed as a substitute, that player will still be counted, as will the replacement player. If a batsman does not bat, but was named in the starting XI (or later introduced as a substitute), bets on that batsman will stand.
+5. When two or more players score the same number of runs, dead-heat rules will apply.
+6. Runs scored in a super over do not count.
+Match Top Bowler - Which bowler will take the most wickets in the match?
+1. The result of this market is determined on the bowler with the most wickets in the match.
+2. In limited overs matches, bets will be void if it has not been possible to complete at least 50% of the overs scheduled to be bowled in each innings at the time the bet was placed due to external factors, including bad weather.
+3. Top bowler bets for First Class matches apply only to the first innings of each team, and will be void if fewer than 200 overs have been bowled, unless both first innings have been completed.
+4. If a player was named at the toss, but later is removed as a substitute, that player will still be counted, as will the replacement player.
+5. If a bowler does not bowl, but was named in the starting XI (or later introduced as a substitute), bets on that bowler will stand.
+6. If two or more bowlers have taken the same number of wickets, the bowler who has conceded the fewest runs will be the winner.
+7. If there are two or more bowlers with the same wickets taken and runs conceded, dead heat rules will apply.
+8. Wickets taken in a super over don’t count.
+Team of Top Batsman - Which team will contain the top batsman in the match?
+- Same rules apply as Match Top Batsman, with dead heat rules applying if the runs scored by the top batsman on both teams is the same.
+Team of Top Bowler- Which team will contain the top bowler in the match?
+- Same rules apply as Match Top Bowler, with dead heat rules applying if the wickets taken by the top bowler on both teams is the same.
+Man of the Match - Who will be named Man of the Match?
+1. Bets will be settled on the officially declared man of the match.
+2. Dead-heat rules apply.
+3. If no man of the match is officially declared then all bets will be void.
+First Innings Lead - What will be the run deficit between first innings in a First Class match?
+1. Both first innings must be completed.
+2. Dead heat rules apply in the case of a tie.
+3. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+Fifty/Hundred in Match - Will there be a fifty/hundred scored in the match?
+1. Any score of 50 and above counts as a fifty. Similar for hundred.
+2. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+3. In First Class matches, this market refers to just the first innings of the match, not both teams' first innings.
+4. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+Fifty/Hundred in First Innings - Will there be a fifty/hundred scored in the first innings of the match?
+1. Any score of 50 and above counts as a fifty. Similar for hundred.
+2. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled in the first innings due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+3. In drawn First Class matches, the innings must be completed, or over 200 overs, unless settlement of the bet has already been determined before the reduction.
+Highest Individual Score - What will be the highest score by a batsman in the match?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. Dead heat rules apply.
+Rabbit Runs - How many runs will the number 11s score in the match?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to be bowled due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled.
+3. The number 11 is taken to be the last man to come out to bat in the innings, regardless of previously stated batting order.
+4. If more than 11 players bat, the market will be void unless this is due to concussion substitutions.
+5. If the innings is completed without the number 11 coming to the crease, that batsman will be deemed to have scored 0.
+Head to Heads
+Most Runs in First Over - Which team will score the most runs in the first over of their first innings?
+- Same as Runs in First Over.
+Most Runs in Groups of Overs - Which team will score the most runs in the first specified number of overs of their first innings?
+- Same as Runs in Groups of Overs.
+Highest First Partnership - Which team will score the most runs before losing their first wicket?
+- Same as Runs in First Partnership.
+Most Fours - Which team will hit the most fours?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather, unless settlement has been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. In First Class games, only first innings fours will count.
+4. Only fours scored from the bat (off any delivery – legal or not) will count towards the total fours.
+5. Overthrows, all run fours and extras do not count.
+6. Fours scored in a super over do not count.
+Most Sixes - Which team will hit the most sixes?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather, unless settlement has been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. In First Class games, only first innings sixes will count.
+4. Only sixes scored from the bat (off any delivery – legal or not) will count towards the total sixes.
+5. Overthrows and extras do not count.
+6. Sixes scored in a super over do not count.
+Batsman Matchbet - Which of the named players will score the most runs?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather, unless settlement has been determined.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. Both players must be named in the starting eleven. If either does not then subsequently bat all bets are void.
+4. In First Class games, only first innings runs will count.
+5. Runs scored in a super over do not count.
+Bowler Matchbet - Which of the named players will take the most wickets?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather, unless settlement has been determined.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. Both players must be named in the starting eleven. If either does not then subsequently bowl all bets are still settled.
+4. In First Class games, only first innings wickets will count.
+5. If no bowlers take a wicket in an innings then all bets will be void.
+6. Wickets taken in a super over do not count.
+All-Rounder Matchbet - Which of the named players will score the most points in the player performance scoring system?
+1. Points are scored as follows: 1 point per run, 20 points per wicket, 10 points per catch, 25 points per stumping.
+2. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather.
+3. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled.
+4. Both players must be named in the starting eleven. If either player does not
+then subsequently bat or bowl then all bets are still settled.
+5. In First Class games, only first innings points will count.
+6. Points scored in a super over do not count.
+Keeper Matchbet - Which of the named wicket keepers score the more points in the player performance scoring system?
+1. Points are scored as above.
+2. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather.
+3. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled.
+4. Both named players must start the match as a wicket keeper but if their playing role changes for any reason all bets will still be settled in accordance with scoring system above.
+5. In First Class games, only first innings points will count.
+6. Points scored in a super over do not count.
+Most Keeper Catches - Which team’s wicket keeper will take more catches?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather, unless settlement has been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. If a team changes their wicket keeper mid innings, the catches taken by the replacement will count towards settlement.
+4. In First Class games, only first innings catches will count.
+5. Catches taken in a super over do not count.
+Most Catches - Which team will take more catches? Including fielders and wicket keeper.
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather, unless settlement has been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+3. In First Class games, only first innings catches will count.
+4. Catches taken in a super over do not count.
+Most Stumpings - Which team will take more stumpings?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather, unless settlement has been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 200 overs have
+been bowled, unless settlement of the bet has already been determined.
+3. In First Class games, only first innings stumpings will count.
+4. Stumpings taken in a super over do not count.
+Most Run Outs Conceded - Which team will concede the most run outs in the match?
+1. A run out "conceded" means that a member of that team will be run out while batting.
+2. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather, unless settlement has been determined before the reduction.
+3. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless settlement of the bet has already been determined.
+4. In First Class games, only first innings run outs will count.
+5. Run Outs in a super over do not count.
+Team Markets
+Runs in Team A First Over - How many runs will Team A score off the first over of their first innings?
+- Same as Runs in First Over.
+Runs in Team A Group of Overs - How many runs will Team A score in the first specified number of overs?
+- Same as Runs in Groups of Overs.
+Runs in Team A First Partnership - How many runs will Team A score before their first wicket falls?
+- Same as Runs in First Partnership.
+Team A Method of First Dismissal - How will the first batsman in Team A be out?
+- Same as Method of First Dismissal.
+Team A Fours - How many fours will Team A score?
+1. Same as Match Fours, with the 80% of required overs only applying to Team A’s innings.
+2. In First Class matches, the result will solely be based on the first innings of each team.
+Team A Sixes - How many sixes will Team A score?
+1. Same as Match Sixes, with the 80% of required overs only applying to Team A’s innings.
+2. In First Class matches, the result will solely be based on the first innings of each team.
+Team A Innings Run Outs - How many of Team A will be run out?
+1. Same as Match Run Outs, with the 80% of required overs only applying to Team A’s innings.
+2. In First Class matches, the result will solely be based on the first innings of each team.
+Team A Maximum Over - How many runs will be scored in the highest scoring over of Team A’s innings?
+1. Same as Maximum Over in Match, with the 80% of required overs only applying to Team A’s innings.
+2. In First Class matches, the result will solely be based on the first innings of each team.
+Team A Ducks - How many of Team A will score a duck in their innings?
+1. Same as Match Ducks, with the 80% of required overs only applying to Team A’s innings.
+2. In First Class matches, the result will solely be based on the first innings of each team.
+Team A Wides - How many wides will there be when Team A are batting?
+1. Same as Match Wides, with the 80% of required overs only applying to when Team A are batting.
+2. In First Class matches, the result will solely be based on the first innings of each team.
+Team A Extras - How many extras will there be when Team A are batting?
+1. Same as Match Extras, with the 80% of required overs only applying to when Team A are batting.
+2. In First Class matches, the result will solely be based on the first innings of each team.
+Team A Wickets Lost - How many wickets will fall when Team A are batting?
+1. Same as Match Wickets, with the full overs required only applying to when Team A are bowling.
+2. In First Class matches, the result will solely be based on the first innings of each team.
+Team A Top Batsman - Which batsman will score the most runs for Team A? 
+1. The result of this market is determined on the batsman with the highest individual score in Team A’s first innings.
+2. Otherwise, same as Match Top Batsman, with the 50% of required overs only applying in Team A’s innings.
+Team A Top Bowler - Which bowler will take the most wickets for Team A?
+1. The result of this market is determined on the bowler with the most wickets when Team A are bowling in the first innings.
+2. If two or more bowlers have taken the same number of wickets, the bowler who has conceded the fewest runs will be the winner.
+3. If there are two or more bowlers with the same wickets taken and runs conceded, dead heat rules will apply.
+4. Otherwise, same as Match Top Bowler, with the 50% of required overs only applying when Team A are bowling.
+Player Markets
+Batsman Runs - How many runs will the named batsman score?
+1. If the batsman finishes the innings not out, as a result of a declaration, the team reaching the end of their allotted overs, or the team reaching their target; his score will be the final result.
+2. If a batsman does not bat, the bet will be void.
+3. If a batsman is not in the starting 11, bets will be void.
+4. If a batsman retires hurt, but returns later, the total runs scored by that batsman in the innings will count. If the batsman does not return later, the final result will be as it stood when the batsman retired.
+5. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in the relevant innings due to external factors, including bad weather, unless settlement has been determined, or goes on to be determined.
+6. Result will be considered determined if the line at which the bet was placed is passed, or the batsman is dismissed.
+7. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless the player has completed their innings, or result has already been determined.
+8. In First Class games, only first innings runs will count.
+9. Runs scored in a super over do not count.
+Combined Batsman Runs - How many runs will the named batsmen score?
+- As "Batsman Runs", and if any of the named batsmen do not bat, the bet will be void, unless settlement of the bet has already been determined or goes on to be determined.
+Batsman Fours - How many fours will the named batsman score?
+1. If a batsman finishes the innings not out, as a result of a declaration, the team reaching the end of their allotted overs, or the team reaching their target; his number of fours will be the final result.
+2. If a batsman does not bat, the bet will be void.
+3. If a batsman is not in the starting 11, bets will be void.
+4. If a batsman retires hurt, but returns later, the total fours hit by that batsman in the innings will count. If the batsman does not return later, the final result will be as it stood when the batsman retired.
+5. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in the relevant innings due to external factors, including bad weather, unless settlement has been determined, or goes on to be determined.
+6. Result will be considered determined if the line at which the bet was placed is passed, or the batsman is dismissed.
+7. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless the player has completed their innings, or result has already been determined.
+8. Only fours scored from the bat (off any delivery – legal or not) will count towards the total fours. Overthrows, all run fours and extras do not count.
+9. In First Class games, only first innings fours will count.
+10. Fours scored in a super over do not count.
+Batsman Sixes - How many sixes will the named batsman score?
+1. If a batsman finishes the innings not out, as a result of a declaration, the team reaching the end of their allotted overs, or the team reaching their target; his number of sixes will be the final result.
+2. If a batsman does not bat, the bet will be void.
+3. If a batsman is not in the starting 11, bets will be void.
+4. If a batsman retires hurt, but returns later, the total sixes hit by that batsman in the innings will count. If the batsman does not return later, the final result will be as it stood when the batsman retired.
+5. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in the relevant innings due to external factors, including bad weather, unless settlement has been determined, or goes on to be determined.
+6. Result will be considered determined if the line at which the bet was placed is passed, or the batsman is dismissed.
+7. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless the player has completed their innings, or result has already been determined.
+8. Only sixes scored from the bat (off any delivery – legal or not) will count towards the total sixes. Overthrows and extras do not count.
+9. In First Class games, only first innings sixes will count.
+10. Sixes scored in a super over do not count.
+Bowler Wickets - How many wickets will the named bowler take?
+1. If a bowler does not bowl, he will be deemed to have taken 0 wickets.
+2. If a bowler is not in the starting 11, bets will be void.
+3. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in the relevant innings due to external factors, including bad weather, unless settlement has been determined.
+4. Result will be considered determined if the line at which the bet was placed is passed.
+5. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless the player’s bowling innings is complete.
+6. In First Class games, only first innings wickets will count.
+7. Wickets scored in a super over do not count.
+Named Player Performance - How many points will the named player score in the player performance scoring system?
+1. Points are scored as in All-Rounder v All-Rounder Head to Heads.
+2. If the player does not bat or bowl, but is in the staring eleven, all bets will still be settled.
+3. If the player is not in the starting eleven bets will be void.
+4. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in either innings due to external factors, including bad weather, unless settlement has been determined.
+5. Result will be considered determined if the line at which the bet was placed is passed.
+6. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless both first innings have been completed.
+7. In First Class games, only first innings points will count.
+8. Points scored in a super over do not count.
+One-sided Markets
+Both Teams to Score ‘X’ Runs - Will both teams score the specified number of runs?
+1. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the overs scheduled to have been bowled in both innings at the time the bet was placed due to external factors, including bad weather, unless settlement of the bet has already been determined before the reduction.
+2. In drawn First Class matches, bets will be void if fewer than 100 overs have been bowled in either teams first innings, unless settlement of the bet has already been determined.
+3. Only runs scored in the first innings count.
+4. If a team declares that innings will be considered complete for the purposes of settlement.
+Batsman and Bowler Combo Milestones - Will the named batsman, and the named bowler, reach their specified milestones?
+1. For batsman – same as "Batsman Runs".
+2. In first class games, only runs scored in the first innings will count.
+3. If a batsman is not in the starting XI, or substituted in, bets will be void.
+4. For bowler – if a bowler does not bowl, they will be deemed to have taken 0 wickets.
+5. If a bowler is not in the starting XI, or substituted in, bets will be void.
+6. In limited overs matches, bets will be void if it has not been possible to complete at least 80% of the scheduled overs in the relevant innings due to external factors, including bad weather, unless settlement has been determined.
+7. In drawn First Class matches, bets will be void if fewer than 200 overs have been bowled, unless the player’s bowling innings is complete.
+8. The result will be considered determined if the lines at which the bet was placed are passed.
+9. In First Class games, only first innings wickets will count and runs.
+10. Wickets and runs scored in a super over do not count.
+Batsmen Combo Milestones - Will both the batsmen reach their specified milestones?
+- Same as "Combined Batsman Runs"
+Notes for all Markets
+Players sent off/retired out
+- A player being sent off is viewed as retired out, so counts as a wicket.
+Concussion substitutions
+1. When a player leaves the field as a concussion substitute, this does not count as a wicket.
+2. If the player does not return later, the final result will be as it stood when the player left the field.
+3. When a player enters the match as a concussion substitute, for settlement purposes both they and the player replaced are looked upon as to have played a full part in the match.
+Penalty runs after the conclusion of an innings
+- Penalty runs added to a team’s total after the start of the other team’s innings do not count towards settlement of markets in the previous innings.
+
+Volleyball
+1. All markets are considered for regular time only unless otherwise stated.
+2. In the case of a match not being finished all undecided markets are considered void.
+3. Golden set is not considered in any of the mentioned markets.
+4. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+5. Official points deductions will be taken into account for all undetermined markets. Markets which have already been determined will not take deductions into account.
+
+Golf
+1. All bets will be settled on the official result. If a tournament is shortened for any reason but at least 36 holes have been played; the official trophy settlement will be used to result all wagers.
+2. If 36 holes are not played, all wagers are void except for those that have already reached an unconditional conclusion
+3. If a tournament is abandoned, any bets placed after the last completed round will be void.
+Market Specific Rules
+1. Outright Markets: Dead heat rules will apply.
+2. A dead heat in wagering is when two or more participants tie for a position in an event. The calculation is as follows: Your original stake is divided by the number of competitors involved in the dead heat and multiplied by the number of places available.
+3. To Make the Cut: Bets will be settled on the official result posted on the tour sites. Players who are disqualified or withdraw before completing 36 holes are deemed to have missed the cut. 36 holes must be played for bets to stand.
+Settlement and Cancellation Rules
+1. In the event a golfer withdraws prior to teeing off, bets on that golfer will be voided.
+2. In the event a golfer withdraws after teeing off then bets will stand.
+
+Ice Hockey
+1. All markets (except period, overtime and penalty shootout markets) are considered for regular time only unless it is mentioned in the market.
+2. If a match is interrupted and continued within 48h after initial kickoff all open bets will be settled with the final result . Otherwise all undecided bets are considered void.
+3. In the event of a game being decided by a penalty shootout, then one goal will be added to the winning team's score and the game total for settlement purposes. This only applies to markets including overtime and penalty shootout.
+Settlement and cancellation rules
+1. If the market remains open when the following events have already taken place: goals and penalties, we reserve the right to void betting.
+2. If odds were offered with an incorrect match time (more than 2 minutes), we reserve the right to void betting.
+3. If a wrong score is entered all markets will be canceled for the time when the incorrect score was displayed.
+4. If a match is interrupted or postponed and is not continued within 48h after the initial kick-off date betting will be void.
+Anytime Goalscorer and Player to score a point
+1. All offered players are considered as runners.
+2. If an unlisted player scores a goal or earns a point, all bets on listed players stand.
+3. For settlement purposes, only goals and assists scored during regular time are considered. Please note that if the score after regular time is 0-0, all bets will be settled as lost.
+4. All bets on players that were listed but left the game before the match ended (such as injuries or expulsions) will stand.
+5. Markets will be settled based on TV inserts and data provided by official associations unless there is clear evidence these statistics are not correct.
+Next scoring type
+1. Even strength: Goals are considered even strength when every team has the same number of players on the ice.
+2. Power-play: A goal is considered to be a power-play goal if the team with numerical advantage scores.
+3. Penalty shot: A penalty shot is considered to be a goal if converted.
+4. Empty net: A goal is considered to be an empty net goal, if the trailing team pulls the goalkeeper for an extra attacker and the leading team scores. In power-play/short-handed and empty net situations, a goal will always be considered as empty net goal for settlement purposes.
+5. No goal.
+
+Handball
+1. Which team will win race to x points?- If a match ends before the Xth is reached, this market is considered void. (incl. ot)
+2. All markets are considered for regular time only unless otherwise stated
+3. If the match goes to a 7-meter shootout; the markets "Who scores Xth point?" and "Which team will win race to X points?" will be voided.
+Settlement and cancellation rules
+1. If a match is interrupted or postponed and is not continued within 48h after initial kick-off date, betting will be void.
+2. If odds were offered with an incorrect match time (more than 3 minutes), we reserve the right to void betting.
+3. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+
+Field Hockey
+All markets exclude overtime unless otherwise mentioned.
+Settlement and cancellation rules
+1. If a match is interrupted or postponed and is not continued within 48h after initial kick-off date, betting will be void.
+2. If markets remain open with an incorrect score which has a significant impact on prices, we reserve the right to void betting.
+
+Snooker
+1. In case of a frame starting but not being completed, all frame related markets will be voided unless the outcome has already been determined.
+2. No fouls or free balls are considered for settlement of any Potted-Colour market.
+3. In case of a re-rack settlement stays if the outcome was determined before the re-rack.
+4. In the case of a retirement of a player or disqualification, all undecided markets are considered void.
+Settlement and cancellation rules
+1. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+2. If the players/teams are displayed incorrectly, we reserve the right to void betting.
+3. If a match is not completed all undecided markets are considered void.
+
+Table Tennis
+Settlement and Cancellation Rules
+1. If a match is interrupted or postponed and is not continued within 48h after initial kick-off date, betting will be void (The bet can be voided, before 48 hours has passed, in agreement between the client and Sportsbet.io).
+2. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+3. If the players/teams are displayed incorrectly, we reserve the right to void betting.
+4. If a player retires all undecided markets are considered void.
+5. Official points deductions will be taken into account for all undetermined markets. Markets which have already been determined will not take deductions into account.
+
+Badminton
+1. In the case of a match not being finished, all undecided markets are considered void.
+2. If a match is interrupted or postponed and is not continued within 48h after the initial kick-off date, betting will be void.
+3. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+4. If a team retires all undecided markets are considered void.
+5. If the players/teams are displayed incorrectly, we reserve the right to void betting.
+6. Official points deductions will be taken into account for all undetermined markets. Markets which have already been determined will not take deductions into account.
+
+Squash
+1. In case of a match not being finished all undecided markets are considered void.
+2. If a match is interrupted or postponed and is not continued within 48h after initial kick-off date, betting will be void.
+3. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+4. If the players/teams are displayed incorrectly, we reserve the right to void betting.
+5. If a player retires, forfeits the match or is disqualified all undecided markets are considered void.
+6. Official points deductions will be taken into account for all undetermined markets. Markets which have already been determined will not take deductions into account.
+7. If penalty point(s) are awarded by the umpire, all bets on that game will stand.
+
+Rugby
+1. All markets (except halftime, first half markets, overtime and penalty shoot out) are considered for regular time only.
+2. If a match is interrupted and continued within 48h after the initial kickoff, all open bets will be settled with the final result . Otherwise, all undecided bets are considered void.
+3. Regular 80 Minutes: Markets are based on the result at the end of a scheduled 80 minutes play unless otherwise stated. This includes any added injury or stoppage time but does not include extra-time, time allocated for a penalty shootout or sudden death.
+4. Rugby Sevens - Regular 14 / 20 Minutes: Markets are based on the result at the end of a scheduled 14 / 20 minutes play unless otherwise stated. This includes any added injury or stoppage time but does not include extra-time, time allocated for a penalty shootout or sudden death.
+Settlement and cancellation rules
+1. If the market remains open when the following events have already taken place: score changes or red cards, we reserve the right to void betting.
+2. If the market was opened with a missing or incorrect red card, we reserve the right to void betting.
+3. If odds were offered with an incorrect match time (more than 2 minutes), we reserve the right to void betting.
+4. If a match is interrupted or postponed and is not continued within 48h after initial kick-off date betting will be void.
+5. If the team names or category are displayed incorrectly, we reserve the right to void betting.
+
+AFL
+1. All markets exclude overtime unless otherwise stated.
+2. If a match is interrupted and continued within 48h after initial kickoff, all open bets will be settled with the final result. Otherwise, all undecided bets are considered void.
+3. Regular 80 Minutes: Markets are based on the result at the end of a scheduled 80 minutes play unless otherwise stated. This includes any added injury or stoppage time but does not include extra-time.
+Settlement and cancellation rules
+1. If odds were offered with an incorrect match time (more than 2 minutes), we reserve the right to void betting.
+2. If a match is interrupted or postponed and is not continued within 48h after the initial kick-off date betting will be void.
+3. If the team names or category are displayed incorrectly, we reserve the right to void betting.
+
+Beach Volleyball
+1. All markets are considered for regular time only unless otherwise stated.
+2. In the case of a match not being finished all undecided markets are considered void.
+3. Golden set is not considered in any of the mentioned markets.
+Settlement and cancellation rules
+1. If a match is interrupted or postponed and is not continued within 48h after the initial kick-off date, betting will be void.
+2. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+3. If a team retires all undecided markets are considered void.
+4. Official points deductions will be taken into account for all undetermined markets. Markets which have already been determined will not take deductions into account.
+
+Bowls
+1. In case of a retirement and walk over of any player all undecided bets are considered void.
+2. If a match is interrupted and continued within 48h after initial start time, all open bets will be settled with the final result. Otherwise, all undecided bets are considered void.
+Settlement and cancellation rules
+1. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+2. If the players/teams are displayed incorrectly, we reserve the right to void betting.
+3. If a player retires all undecided markets are considered void.
+
+Boxing
+All markets are settled according to the result available immediately after the end of the fight. Any subsequent appeals or amendments to the result are not taken into consideration for settlement purposes.
+Match Abandonments/Postponements
+1. If the fight does not take place for any reason on the scheduled date then all bets will be void.
+2. If either fighter fails to answer the bell for the next round then his opponent will be deemed to have won in the previous round.
+3. Should there be a withdrawal or a substitution of one of the fighters concerned, bets will be void.
+4. In the event of a fight being declared a No Contest all bets will be void.
+5. Should the scheduled number of rounds be changed before the fight then all "Total Rounds", "Winner and exact rounds" and "Winning Method" bets will be made void.
+Winner (To Win the Fight)
+1. Predict which competitor will win the bout. No draw selection is offered.
+2. For the Winner market where no draw selection is offered all bets will be void in the event of a draw (this includes a fight which ends in a Majority Draw or a Technical Draw).
+1x2 (Fight Result)
+1. Predict the result of the bout.
+2. If the fight ends in a Majority Draw or a Technical Draw then Draw will be the winning selection.
+Total Rounds (Over/Under)
+1. Betting on the round in which the fight result will be determined.
+2. For settlement purposes where a half round is stated then 1 minute 30 seconds of the respective round will define the half to determine under or over. Thus, 9.5 rounds would be one minute and thirty seconds of the 10th round. If the fight ends at exactly 1 minute 30 seconds of the 10th round then the result would be over 9.5 rounds.
+Winner & exact round
+1. Predict the round in which your selection will win the fight.
+2. Betting on winner and exact round is for a fighter to win by KO, TKO or disqualification during that round.
+3. Where a boxer fails to answer the bell for the next round, his opponent shall be deemed to have won the contest in the previous round.
+
+In the event of a Technical Decision before the end of the fight all bets will be settled as a win by Decision and round bets will be deemed losers.
+Winning Method
+1. Predict the method by which the result of the fight will be decided.
+2. All bets will be settled on the official result declared. A win by disqualification is counted as Knockout/Technical Knockout.
+Any fighter to win inside the distance
+1. Predict if the fight will be decided before the scheduled number of rounds.
+2. In the event of a technical decision, for settlement purposes, the fight will have been deemed NOT to have gone the distance.
+
+Darts
+In the case of a match not being finished all undecided markets are considered void.
+Settlement and cancellation rules
+1. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+2. If the players/teams are displayed incorrectly, we reserve the right to void betting.
+3. If a match is not completed all undecided markets are considered void.
+4. Bullseye counts as red check out color.
+
+Esports
+1. All esports markets are based on in-game score events or results at the end of a scheduled match/map. All settlements will occur using the official score and results, which are declared on the official video stream or the in-game stream of the relevant matches.
+2. All match start dates and times displayed for Esports matches are for indication purposes only and are not guaranteed to be correct. Bets will stand if a match is offered with an incorrect date and/or time.
+3. If a match is paused/postponed and not rescheduled to a later time within 24 hours of the actual scheduled start time, then all bets on that match will be voided.
+4. If the name of a player/team/tournament is misspelled, all bets will still stand unless it’s obvious that the misspelled name is the same as a different entity.
+5. If a team name is changed due to a team leaving the organization, joining another organization, or due to an official change of team name, all bets will stand.
+6. If the organizer of the event allows for stand-ins and there is an official result, all bets will be resulted as normal.
+7. In the case where there is an overruling of a match result by the organizer due to unforeseen circumstances - such as cheating - all bets on that match will be voided. This rule is applicable within 72 hours from the end of the match, then we don't change the result of the tickets.
+8. If a match has been declared as a walkover win by the tournament organizer, all bets will be void.
+9. If one team retires during a match, only wagers on the completed individual maps will be resulted. Match market, match side markets, and all other undecided map markets will be voided. Bets placed on any following maps that will be completed will be resulted with the official results. However, any and all live offer will be suspended on this match and moved to a new match with a different match ID that will genuinely reflect the state of the match. The only exemption to this rule would be in this very situation: team A wins map 1 and proceeds to forfeit map 2. In this case, we would void all wagers on all undecided match and map 2 markets and continue our offer within map 3 of the match.
+10. All markets consider overtime, unless stated otherwise in the market name.
+11. If the match format is changed or differs from the one which is being offered, we reserve the right to void all bets.
+12. If the fixture is listed incorrectly, we reserve the right to void all bets.
+13. If a match is played before the scheduled start date / time, all bets placed after the actual start of the match will be refunded. All bets placed before the actual start of the match will stand.
+14. If a match or map is replayed due to an organizer or technical issues, all affected markets will be voided, while the replayed matches or maps will be handled separately as a new match.
+15. If a game on the map starts with less than ten players, all bets on that map will be voided.
+
+CS:GO
+1. If one of the players disconnects and is unable to reconnect or be replaced for the rest of the Map, both teams decide to continue 4v5, and they play at least 5 rounds. All affected bets on that Map, Match, and match side markets will be voided.
+2. If a team retires, receives a win by admin decision, or is disqualified before all scheduled rounds of a Map are played, all undecided bets on that Map and Match will be voided.
+3. Rounds 1-12 constitute the first half of CS2 Maps.
+4. In the case of a round restart, all bets will stand. All markets will be resolved based on the official score.
+
+Valorant
+1. If one of the players disconnects and is unable to reconnect or be replaced for the rest of the Map, both teams decide to continue 4v5, and they play at least 5 rounds. All affected bets on that Map, Match and match side markets will be voided.
+2. If a team retires, receives a win by admin decision or is disqualified before all scheduled rounds of a Map are played, all undecided bets on that Map and Match will be voided
+3. Rounds 1-12 constitute the first half of Valorant Maps.
+4. In the case of a round restart, all bets will stand. All markets will be resolved based on the official score.
+
+Dota 2
+1. If a Map starts with fewer than 10 competitors, all bets on the Map will be void.
+2. If a competitor disconnects in the first 10 minutes and is unable to reconnect or be replaced for the rest of the Map, all affected bets on that Map and Match will be voided. If a competitor disconnects or quits after the 10th minute of play of a Map has started, bets have action according to the official result.
+3. If a walkover or win by admin decision is given in the first 10 minutes of a Map, all bets on the Map will be void. If a win by admin decision is awarded after the 10th minute of play of a Map has started, bets have action according to the official result.
+
+League of Legends
+1. If a Map starts with fewer than 10 competitors, all bets on the Map will be void.
+2. If a competitor disconnects in the first 10 minutes and is unable to reconnect or be replaced for the rest of the Map, all affected bets on that Map and Match will be voided. If a competitor disconnects or quits after the 10th minute of play of a Map that has started, bets have action according to the official result.
+3. If a walkover or win by admin decision is given in the first 10 minutes of a Map, all undecided bets on that Map and Match will be voided. If a win by admin decision is awarded after the 10th minute of play of a Map has started, bets have action according to the official result.
+
+King of Glory
+1. If a Map starts with fewer than 10 competitors, all bets on the Map will be void.
+2. If a competitor disconnects in the first 10 minutes and is unable to reconnect or be replaced for the rest of the Map, all undecided bets on that Map and Match will be voided. If a competitor disconnects or quits after the 10th minute of play of a Map has started, bets have action according to the official result.
+3. If a walkover or win by admin decision is given in the first 10 minutes of a Map, all undecided bets on that Map and Match will be voided. If a win by admin decision is awarded after the 10th minute of play after the Map has started, bets have action according to the official result.
+Market specific rules
+If the final gameplay length/duration is the same as a particular threshold, it is resolved as OVER.
+
+eFIFA
+All markets (except first half markets) are considered for regular time only unless otherwise stated. Regular 90 Minutes: Markets are based on the result at the end of a scheduled 90 minutes play unless otherwise stated. This includes any added injury or stoppage time but does not include extra-time, time allocated for a penalty shootout or golden goal.
+Settlement and Cancellation Rules
+1. If the market remains open when the following events have already taken place: goals, red or yellow-red cards and penalties, we reserve the right to void betting.
+2. If the market was opened with a missing or incorrect red card, we reserve the right to void betting.
+3. If odds were offered with an incorrect match time, we reserve the right to void betting.
+4. If a wrong score is entered, all markets will be canceled for the time when the incorrect score was displayed.
+5. If a match is interrupted or postponed and is not continued within 48h after initial scheduled match start, betting will be void.
+6. If a match gets abandoned and restarted, unsettled markets will be void.
+7. If the team names or category are displayed incorrectly, we reserve the right to void betting.
+
+eNBA
+Markets consider overtime unless otherwise stated.
+Settlement and Cancellation Rules
+1. If a match is interrupted or postponed and is not continued within 48h after the initial scheduled match start, betting will be void.
+2. If a match gets abandoned and restarted, unsettled markets will be void.
+3. If odds were offered with an incorrect match time, we reserve the right to void betting.
+4. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+5. In the event that a match does not finish in a tie, but overtime is played for qualification purposes, the markets will be settled according to the result at the end of regular time.
+
+eNHL
+All markets (except period markets) are considered for regular time only unless otherwise stated.
+Settlement and Cancellation Rules
+1. If the market remains open when the following events have already taken place: goals and penalties, we reserve the right to void betting.
+2. If odds were offered with an incorrect match time, we reserve the right to void betting.
+3. If a wrong score is entered all markets will be canceled for the time when the incorrect score was displayed.
+4. If a match is interrupted or postponed and is not continued within 48h after initial scheduled match start, betting will be void.
+5. If a match gets abandoned and restarted, unsettled markets will be void.
+
+Futsal
+1. All markets (except halftime, first half markets, overtime and penalty shoot out) are considered for regular time only.
+2. If a match is interrupted and continued within 48h after initial kick-off date, all open bets will be settled with the final result. Otherwise all undecided bets are considered void.
+Settlement and cancellation rules
+1. If the market remains open when the following events have already taken place: goals, red or yellow-red cards and penalties, we reserve the right to void betting.
+2. If the market was opened with a missing or incorrect red card, we reserve the right to void betting.
+3. If odds were offered with an incorrect match time (more than 2 minutes), we reserve the right to void betting.
+4. If a wrong score is entered, all markets will be canceled for the time when the incorrect score was displayed.
+5. If a match is interrupted or postponed and is not continued within 48 h after initial kick-off date betting will be void.
+6. If the team names or category are displayed incorrectly, we reserve the right to void betting.
+
+Kyotei
+What does SP mean in Kyotei?
+SP means starting price. In simple terms it means the final confirmed odds of a boat at the end of the race in which it is racing.
+Settlement and cancellation rules
+1. If a match is interrupted or postponed and is not continued within 48h after initial kick-off date, betting will be void.
+2. If odds were offered with an incorrect match time (more than 3 minutes), we reserve the right to void betting.
+3. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+
+Mahjong
+1. If a match is interrupted or postponed and is not continued within 48h after initial kick-off date, betting will be void.
+2. If odds were offered with an incorrect match time (more than 3 minutes), we reserve the right to void betting.
+3. If markets remain open with an incorrect score which has a significant impact on the prices, we reserve the right to void betting.
+
+Mixed Martial Arts (MMA)
+All markets are settled according to the result available immediately after the end of the fight. Any subsequent appeals or amendments to the result are not be taken into consideration for settlement purposes.
+
+Match Abandonments/Postponements
+1. If the fight does not take place for any reason on the scheduled date then all bets will be void.
+2. If either fighter fails to answer the bell for the next round then his opponent will be deemed to have won in the previous round.
+3. Should there be a withdrawal or a substitution of one of the fighters concerned, bets will be void.
+4. In the event of a fight being declared a No Contest all bets will be void.
+5. Should the scheduled number of rounds be changed before the fight then all "Total Rounds", "Winner and exact rounds" and "Winning Method" bets will be made void.
+Winner (To Win the Fight)
+1. Predict which competitor will win the bout. No draw selection is offered.
+2. For the Winner market where no draw selection is offered all bets will be
+void in the event of a draw (this includes a fight which ends in a Majority
+Draw or a Technical Draw).
+1x2 (Fight Result)
+1. Predict the result of the bout.
+2. If the fight ends in a Majority Draw or a Technical Draw then Draw will be the winning selection.
+Total (Over/Under)
+1. Betting on the round in which the fight result will be determined.
+2. For settlement purposes where a half round is stated then 2 minutes 30 seconds of the respective round will define the half to determine under or over. Thus, 2.5 rounds would be two minutes and thirty seconds of the 3rd round. If the fight ends at exactly 2 minutes 30 seconds of the 3rd round then the result would be over 2.5 rounds.
+Winning Method
+1. Predict the method by which the result of the fight will be decided.
+2. All bets will be settled on the official result declared. A win by disqualification is counted as Knockout/Technical Knockout.3. For the purposes of the Winning Method market, a KO includes the following;
+3.1 referee stoppage due to strikes while either fighter is, or both fighters are, standing
+3.2 referee stoppage due to strikes while either fighter is, or both fighters are, on the canvastoppage by doctorstoppage by a fighter’s corner/teama fighter retires due to injurya win by disqualificationFor the purposes of the Winning Method market, a submission
+3.3 referee stoppage due to tap-out referee stoppage due to technical submissions fighter’s verbal submission (including a verbal submission which is made due to strikes).
+
+Winner & exact rounds
+1. Predict the round in which your selection will win the fight.
+2. Betting on the winner and exact round is for a fighter to win by KO, TKO, disqualification or submission during that round or to win by decision.
+3. Where a fighter fails to answer the bell for the next round, his opponent shall be deemed to have won the contest in the previous round. In the event of a Technical Decision before the end of the fight all bets will be settled as a win by Decision and round bets will be deemed losers.
+Will the fight go the distance?
+1. Predict if the fight will be decided before the scheduled number of rounds.
+2. In the event of a technical decision, for settlement purposes, the fight will have been deemed NOT to have gone the distance.
+
+Formula 1
+1. Unless otherwise stated in the market rules, the result at the time of the podium presentation is considered valid for settlement purposes.
+2. Events being shortened due to weather conditions or other circumstances, but are deemed official by the governing association, will be settled accordingly.
+3. If a race is postponed to another day (to be determined within UTC time zone) all markets are considered void.
+4. Unless otherwise stated in the market rules, the dead heat rule will be applied if the number of winners exceeds the expected amount of winning selections for a specific market.
+5. If one or more drivers have to start the race from the pit-lane, he/they will be ranked at the end of the starting grid for settlement purposes.
+6. If competitors (which are reflected as dedicated selections) retire in different laps, the number of finished laps is considered for settlement purposes.
+Team markets
+1. Winner (team), Top x (team) and Head2head (team) are settled with the team which has the best ranked car in the final result.
+2. 1st to retire (teams) is settled with the team which retired one car first.
+3. Please note: Specific retirement market rules are considered as valid for this market.
+4. 1st pit stop (teams) is settled with the team whose car entered the pit-lane first.
+5. Please note: Specific pit stop market rules are considered as valid for this market.
+6. Team total overtakings is settled based on the accumulated number of overtakings of both cars in the specified team.
+7. Please note: Specific overtakings market rules are considered as valid for this market.
+
+Markets for fastest lap
+1. The driver who achieved the fastest lap in the specified lap, cluster of laps or race is considered as the winner.
+2. The lap time in milliseconds is valid for settlement purposes.
+Head to head markets and Winner of group
+1. If all competitors (which are reflected as dedicated selections) retire in the same lap, the market will be voided.
+2. Markets will be considered void if one of the drivers retires in or before the formation lap.
+Markets for overtakings
+1. An overtaking needs to be maintained until the end of the lap in order to be considered for settlement purposes.
+2. Overtakings during the first lap are not considered for settlement purposes.
+3. Overtakings of a specific driver in the same lap when he enters or exits the pit are not considered for settlement purposes.
+4. Overtakings of a car in the lap of its retirement are not considered for settlement purposes.
+5. Lapping and unlapping is not considered as overtaking.
+Markets for retirements
+1. A car is considered as retired for settlement purposes if it doesn’t pass the finish line when the session is considered as completed, unless he is disqualified.
+2. If more than 1 competitor retires in the same lap where the first retirement happened, the dead heat rule will be applied.
+3. If a car retires in the pit or pit lane, the last started lap is considered for settlement purposes.
+Markets for pit stops
+1. The car which enters the pit-lane first will be considered as winner of this market.
+2. If a car enters the pit lane and retires it will still be considered as a pit stop for settlement purposes.
+Total finishers market rules
+1. A driver is only considered as a finisher for settlement purpose if he passes the finish line when the session is considered as ended.
+Classification
+To Be Classified: The official FIA classification will be used when settling this market. Drivers who complete 90% of the number of laps completed by the race winner will be classified by FIA, and will be classified as winners in "to be classified" betting.
+Virtual Sports
+1. The maximum bet (stake) amount per event is mBTC 2,750. ( or equivalent in chosen currencies ).
+2. Any bets containing multiple selections of an event that exceed the maximum staked amount will be considered void.
+3. Bet placement and settlement is completed via our 3rd Party Virtual Sports partner and is considered final.
+Virtual Sports Payout Limits
+1. Please be advised that from 25.10.2019 there will be a 10 BTC Limit per 24 hours applied for Virtual Sports winning payouts.
+2. Any withdrawal requests totalling over 10 BTC in a 24 hour playing period will be subject to further confirmation from our Sports support, sports payments team and confirmation of result from our 3rd party Virtual Sports Provider.
+3. Once confirmation has been completed, the withdrawal will be processed as per our normal withdrawal processing procedures.
+
+Winter Sports
+1. Competitors will be considered to start an event based on the official start list of the respective governing body.
+2. Dead-heat rules apply.
+Event Abandonments/Postponements
+1. If an event is abandoned at any time all bets will be void.
+2. If an event is taking place within a sporting tournament, e.g. Winter Olympics, all bets will stand even if the event is postponed as long as the it is rescheduled to take place within the official time of the tournament.
+3. An unplayed or postponed match will be treated as void unless it is played within 48 hours of the listed start time unless it is a part of a sporting tournament as above.
+Head to Head
+1. Predict which competitor will achieve the highest finishing position. All competitors must start the event for bets to stand. In the event that a second run is abandoned the first run will be used for resulting purposes.
+
+Zed Run
+- Zed Run is a distributed application that runs on the Ethereum network, using uniquely developed smart contracts to enable users to purchase, sell, breed and race statistically unique digital thoroughbreds.
+- All Fixed Win bets require the selection to finish in 1st place in order to be successful.
+- Where there are 8 or more runners in a race, a place shall be paid on first, second and third places. Where there are 7, 6 or 5 runners in a race, a place shall be paid on first and second places only.
+- Where there are less than 5 runners in a race, all betting shall be Win only.
+- If Spartans publishes, posts or quotes any incorrect betting information for any ZED.run racing event, such as posting wrong odds, then regardless of the cause of the source of such error Spartans has the right to void each member’s bet.
+- If a single bet is inadvertently accepted after the official start time of the event, the bet shall be deemed to be invalid and will be refunded to the customer.
+Sports Specials
+1. All markets are settled according to the result available after the end of the match/matches.
+2. Soccer - All markets are considered for regular time only unless otherwise stated.
+What happens if a selected player in H2H or other statistical market will not play?
+1. In the event that one or more of the players does not participate, the bet will be voided, and your stake will be returned.
+What happens if one match will be canceled or postponed and therefore won't be played on the expected date?
+1. In the event that one or more of the Sports Specials match won't be played on the expected date, then the bet will be voided, and your stake will be returned. After the first match has started all bets will stand.
+Soccer Blackjack
+1. Special is about the total number of Goals, Cards and Corners in the match.
+- Exactly 21, the customer wins
+- Between 16 - 20 is a stand off and the customer gets their stake back
+- Under 16 & Over 21 is bust and we keep all stakes
+
+Power Slap
+All markets are settled according to the result available immediately after the end of the fight. Any subsequent appeals or amendments to the result are not to be taken into consideration for settlement purposes. 
+Match Abandonments/Postponements
+1. If the fight does not take place for any reason on the scheduled date then all bets will be void.
+2. Should there be a withdrawal or a substitution of one of the fighters concerned, bets will be void.
+3. In the event of a fight being declared a No Contest all bets will be void.
+4. Should the scheduled number of rounds be changed before the fight then all "Total Rounds", "Winner and exact rounds" and "Winning Method" bets will be made void. 
+Winner (To Win the Fight)
+1. Predict which competitor will win the bout. No draw selection is offered.
+2. For the Winner market where no draw selection is offered all bets will bevoid in the event of a draw (this includes a fight which ends in a Majority Draw or a Technical Draw).

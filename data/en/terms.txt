@@ -1,0 +1,101 @@
+1. Introduction
+Spartans.com is owned and operated by Nexus International Entertainment Ltd. registration number: 000043488, registered address: 9 Barrack Road, Belize City, Belize. Spartans.com is licensed and regulated by the Government of the Autonomous Island of Anjouan, Union of Comoros and operates under License No. ALSI-202409038-F12. By accessing or using the Website, you agree to be bound by these Terms and Conditions, our Privacy Policy, Responsible Gaming Policy, and all applicable laws. Continued use constitutes acceptance of future revisions. Disagreement with any provision prohibits further use of the Services.
+
+2. Definitions
+- "Account": A personalized user profile enabling access to Services.
+- "Bonus": Promotional credits, free bets, or rewards offered under specific conditions.
+- "KYC/AML": Know Your Customer and Anti-Money Laundering verification processes.
+- "Geolocation": Technology verifying user location for legal compliance.
+- "RNG": Certified Random Number Generator ensuring game fairness.
+
+3. Eligibility and Registration
+3.1 Age and Jurisdictional Requirements
+- Users must be at least 18 (or 21 in jurisdictions requiring higher age limits).
+- Access is prohibited in restricted regions (List can be found under the point 3.4). Users are responsible for confirming local legality.
+3.2 Account Creation
+- One account per individual. Shared or duplicate accounts result in immediate termination.
+- Registration requires accurate personal details (full name, date of birth, address, email).
+- Mandatory KYC verification (government ID, proof of address, payment method confirmation) precedes withdrawals.
+3.3 Security Obligations
+- Users must safeguard login credentials. Spartans.com is not liable for unauthorized access due to negligence.
+- Suspicious activity (e.g., password sharing, bot usage) triggers account suspension pending investigation.
+3.4 RESTRICTED COUNTRY LIST
+Anjouan, Netherlands, Iraq, Iran, Spain, Curacao, Australia, Myanmar, Russia, Belarus, Vanuatu, Fiji, Palau, Anguilla, Guam, US, United Kingdom, Afghanistan, Papua New Guinea, Guinea, South Sudan, Guatemala, Sudan, Somalia, Niger, Yemen, Mali, Nepal, Haiti, Congo, Monaco, Mozambique, North Korea, Libya, Angola, Syria, France, Germany, Malta, Algeria, Lao PDR (Laos), Ukraine, Burkina Faso, Cameroon, Côte d'Ivoire, Namibia, Brazil
+
+4. Financial Transactions
+4.1 Deposits
+- Accepted methods: Credit/debit cards, e-wallets (Skrill, Neteller), bank transfers, cryptocurrencies (BTC, ETH, USDT).
+- Minimum deposit: $10. Maximum limits vary by method.
+- Funds must originate from verified sources. Third-party payments are prohibited.
+4.2 Withdrawals
+- Processed within 72 hours post-verification. Delays occur for audits or regulatory checks.
+- To be eligible for withdrawal The deposited amount must be wagered at least once at minimum odds of 1.30 (Decimal), which corresponds to -333 (American) or 3/10 (Fractional), or higher. All wagers must meet or exceed these odds to count toward the wagering requirement. This condition also applies to Casino Crash games.
+- Withdrawals mirror deposit methods where possible. Cryptocurrency withdrawals require wallet ownership proof.
+- Anti-money laundering thresholds: $5,000+ transactions trigger enhanced due diligence.
+- You will be limited to $5,000 (or currency equivalent) for withdrawal per day.
+4.3 Currency and Fees
+- Spartans currently only supports cryptocurrency deposits and withdrawals. Please note that withdrawal and deposit fees are not covered by Spartans.
+
+5. Bonuses and Promotions
+5.1 General Terms
+Please visit our general bonus terms and conditions page.
+5.2 Bonus Offers
+Please visit our promotions page.
+
+6. Gameplay and Sports Betting
+6.1 Casino Games
+- Slots and Table Games: Operate on RNGs certified by iTech Labs and eCOGRA.
+- Live Dealer Games: Streamed in real-time with human dealers. Malfunctions void affected rounds.
+6.2 Sportsbook Rules
+- Bets settled per official results. Postponed events void after 48 hours.
+- "Cash Out" allows early settlement at adjusted odds. Partial cashouts permitted.
+- Sportsbook reserves its right to limit bets on individual events and to impose or remove special account limits for individual customers without notice or explanation.
+6.3 Prohibited Activities
+- Insider Betting: Using non-public information for gain.
+- Match Fixing: Colluding to manipulate outcomes. Penalties include lifetime bans and legal reporting.
+
+7. Responsible Gambling
+7.1 Tools and Resources
+- Deposit Limits: Daily/weekly/monthly caps adjustable via account settings.
+- Self-Exclusion: 6–12 month cooling-off periods. Reinstatement requires manual review.
+- Reality Checks: Session reminders every 30 minutes could happen.
+7.2 Support Networks
+- Links to Gamblers Anonymous (gamcare.org.uk) and BeGambleAware (begambleaware.org).
+- Self-assessment quizzes available for risk evaluation.
+
+8. Intellectual Property
+- Spartans.com owns all content (logos, graphics, software). Unauthorized replication breaches copyright law.
+- Third-party game providers (Pragmatic Play, Evolution Gaming) retain rights to their proprietary material.
+
+9. Liability and Disclaimers
+9.1 Service Availability
+- Downtime for maintenance, cybersecurity updates, or force majeure (e.g., natural disasters) exempts Spartans.com from liability.
+- VPN usage to bypass geolocation blocks voids all winnings.
+- In the event of an error in the settlement of a bet — whether due to human error, technical malfunction, system failure, or any other issue — we reserve the right to correct the error at any time. This includes, but is not limited to, incorrect odds, markets, results, or payout calculations.If such an error results in an overpayment or excess winnings being credited to your account, we reserve the right to deduct the excess amount from your balance. If your balance is insufficient, you agree to return the outstanding amount upon request.
+9.2 Loss Limitations
+- Spartans.com is not liable for indirect damages (lost profits, data breaches) arising from Service use.
+- Maximum liability cap: 12 months of user deposits.
+
+10. Dispute Resolution
+10.1 Internal Process
+- Complaints submitted via support@spartans.com within 30 days of incident.
+- Escalation to senior management if unresolved within 14 days.
+10.2 External Arbitration
+- Anjouan Gaming Control Board mediates unresolved disputes.
+- Claims exceeding $10,000 require binding arbitration under ICC rules.
+
+11. Legal and Regulatory Compliance
+11.1 Jurisdictional Adaptations
+- EU users receive GDPR-compliant data handling.
+- UK customers excluded from cryptocurrency transactions due to local restrictions.
+11.2 Anti-Fraud Measures
+- Transaction Monitoring: AI detects irregular patterns (e.g., rapid bet cancellation).
+- IP Tracking: Multiple logins from conflicting regions trigger security alerts.
+
+12. Amendments and Termination
+- Spartans.com reserves unilateral rights to modify Terms. Changes take effect 30 days post-website notification.
+- Accounts inactive for 12 months incur monthly 5% dormancy fees. Balances under $10 forfeit after 24 months.
+
+13. Governing Law
+- Disputes governed by Anjouan law unless superseded by mandatory local regulations.
+- Exclusive jurisdiction resides in Willemstad courts for non-arbitrable matters.

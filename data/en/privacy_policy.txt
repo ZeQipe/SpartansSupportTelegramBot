@@ -1,0 +1,51 @@
+Spartans, operated by Nexus International Entertainment Ltd., is committed to protecting your privacy and ensuring that your personal data is handled securely and transparently. This Privacy Policy outlines how we collect, use, store, and protect your information in accordance with applicable laws and licensing regulations, including those governed by the Government of the Autonomous Island of Anjouan, Union of Comoros.
+
+1. Information We Collect
+We collect and process the following types of personal data:
+- Account Information: Name, date of birth, email address, phone number, residential address, and ID documentation.
+- Transaction Data: Deposit and withdrawal history, payment method details (encrypted), and betting activity.
+- Technical Data: IP address, device type, browser information, and usage logs.
+- Verification Data: KYC documents (e.g., ID, utility bill), and geolocation where required.
+
+2. How We Use Your Data
+Your personal data is collected and processed to:
+- Create and manage your Spartans account.
+- Verify your identity and comply with KYC/AML obligations.
+- Process financial transactions securely.
+- Provide customer support and respond to inquiries.
+- Personalize your experience and improve our services.
+- Prevent fraud, match-fixing, and other illegal activities.
+- Meet legal and regulatory obligations under our Anjouan license.
+
+3. Data Sharing
+We may share your data with:
+- Payment providers for secure transactions.
+- KYC and fraud prevention partners for identity verification and compliance checks.
+- Legal or regulatory authorities when required by law or to protect our rights.
+- Marketing providers only with your explicit consent.
+- We never sell your personal data to third parties.
+
+4. Data Retention
+We retain your data only as long as necessary for legal, regulatory, and operational purposes. After this period, your data will be securely deleted or anonymized.
+
+5. Your Rights
+You have the right to:
+- Access and review your personal data.
+- Request corrections or updates.
+- Withdraw consent for processing (where applicable).
+- Request account closure and deletion of your personal data (subject to regulatory obligations).
+
+6. Cookies and Tracking
+Spartans uses cookies to enhance user experience, analyze site traffic, and support marketing efforts. You can manage your cookie preferences at any time through your browser settings.
+
+7. Data Security
+We implement strict security protocols to protect your information, including:
+- SSL encryption.
+- Two-factor authentication.
+- Regular system audits and access controls.
+
+8. International Transfers
+As we operate under an Anjouan license, your data may be processed in jurisdictions outside your own. We ensure all data transfers comply with international data protection standards.
+
+9. Policy Updates
+We may update this Privacy Policy from time to time. Any significant changes will be communicated via email or prominently on our platform.

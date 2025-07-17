@@ -1,0 +1,94 @@
+At Spartans, we are fully committed to conducting business in compliance with all applicable Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) laws, including the recommendations set by the Financial Action Task Force (FATF). This policy outlines how Spartans actively works to prevent its platform and services from being exploited by criminals for money laundering, terrorist financing, or any form of illicit activity.
+Spartans.com is owned and operated by Nexus International Entertainment Ltd. registration number: 000043488, registered address: 9 Barrack Road, Belize City, Belize. Spartans.com is licensed and regulated by the Government of the Autonomous Island of Anjouan, Union of Comoros and operates under License No. ALSI-202409038-F12.
+
+1. Purpose of the AML Policy
+The purpose of this policy is to establish a clear framework that ensures:
+- Spartans is not used as a vehicle for money laundering or terrorist financing.
+- Compliance with all regulatory obligations under applicable AML/CTF laws.
+- Protection of Spartans’ customers and business operations from abuse or criminal exposure.
+- Establishment of effective internal controls and monitoring mechanisms.
+
+2. What Is Money Laundering?
+Money laundering refers to the process of disguising the origins of illegally obtained funds by passing them through legitimate financial channels. The typical process occurs in three stages:
+- Placement – Introducing illicit funds into the financial system.
+- Layering – Conducting complex financial transactions to obscure the source.
+- Integration – Reintroducing the laundered money into the economy, appearing as legitimate funds.
+Online gaming platforms can be exploited in all three stages if proper safeguards are not in place — which is why our controls are robust and closely monitored.
+
+3. Legal and Regulatory Compliance
+Spartans operates under the laws of Anjouan and follows international AML best practices. We are committed to fulfilling all our legal obligations, including:
+- Conducting Know Your Customer (KYC) procedures.
+- Monitoring financial transactions.
+- Reporting suspicious activities.
+- Maintaining comprehensive records.
+We also consider FATF lists of high-risk jurisdictions and ensure compliance with applicable international sanctions and embargoes.
+
+4. Know Your Customer (KYC) Policy
+KYC is a critical component of AML compliance. Spartans performs rigorous identity verification processes for all players, including:
+- Identity Verification: All customers must provide a valid, government-issued photo ID.
+- Address Verification: A recent (within 3 months) utility bill, bank statement, or official correspondence showing full name and residential address.
+- Payment Method Verification: We may request documentation that confirms the ownership and legitimacy of the payment methods used.
+
+When KYC is Required:
+- Upon registration and/or first deposit.
+- When cumulative transactions exceed regulatory thresholds.
+- Before processing significant withdrawals.
+- If the customer’s activity is considered suspicious or inconsistent.
+- During periodic account reviews or updates.
+Failure to comply with KYC requirements may result in delayed transactions, account restrictions, or closure.
+
+5. Enhanced Due Diligence (EDD)
+Certain customers or situations require Enhanced Due Diligence, especially if:
+- The customer is a Politically Exposed Person (PEP).
+- The customer is located in or connected to a high-risk jurisdiction.
+- Transactions are unusually large, complex, or lack economic justification.
+EDD measures may include:
+- Obtaining additional identification documents.
+- Confirming the source of funds or wealth.
+- Conducting more frequent and detailed transaction reviews.
+
+6. Ongoing Monitoring of Transactions
+Spartans uses automated and manual tools to monitor all account activity and financial transactions in real-time. We track patterns such as:
+- Rapid deposits and withdrawals without gameplay.
+- Multiple accounts with linked payment sources.
+- Irregular gaming behavior inconsistent with typical customer activity.
+- Transactions involving cryptocurrency or anonymous payment methods.
+All activity is reviewed and escalated to our AML team as needed. Monitoring is ongoing throughout the entire customer relationship.
+
+7. Suspicious Activity Reporting (SAR)
+If Spartans detects or suspects any transaction or behavior that may involve money laundering, fraud, or terrorism financing, we will:
+- Immediately freeze or limit the customer’s account.
+- Conduct a full internal investigation.
+- File a Suspicious Activity Report (SAR) with the relevant regulatory authority, as required by law.
+We are legally prohibited from informing the customer if a report has been filed or if an investigation is underway ("tipping-off").
+
+8. Player Responsibilities
+All players using Spartans services are expected to:
+- Provide accurate and truthful personal information during account registration and verification.
+- Only use payment methods registered in their own name.
+- Cooperate fully with any request for documentation or clarification.
+- Avoid engaging in any activity that may be perceived as suspicious, illegal, or abusive of the platform.
+Any breach of these responsibilities may result in account suspension, closure, or legal action.
+
+9. Record Keeping
+We maintain detailed records of:
+- Customer identification documents.
+- Deposits, withdrawals, and gameplay transactions.
+- Communication and internal decision-making related to AML reviews.
+These records are securely stored and retained for a minimum of 5 years, or longer if required by law.
+
+10. Employee Training and Internal Controls
+All Spartans employees receive regular AML and fraud prevention training appropriate to their roles. We ensure that:
+- Our AML team remains up to date with regulatory developments.
+- Strong internal reporting and audit processes are maintained.
+- The AML policy is reviewed and updated at least annually.
+
+11. Data Protection & Confidentiality
+All personal data collected for AML compliance is protected under our Privacy Policy and applicable data protection laws. Access is strictly limited to authorized personnel and is used only for legitimate purposes, including fraud prevention and regulatory compliance.
+
+12. Contact Us
+If you have any questions about our AML policy, verification process, or account security, our dedicated team is available 24/7:
+support@spartans.com
+
+Policy Updates
+This AML Policy may be amended from time to time to reflect legal, regulatory, or operational changes. We encourage users to review it regularly to stay informed.
