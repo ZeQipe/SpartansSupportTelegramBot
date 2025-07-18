@@ -48,11 +48,14 @@ class Embedder:
         # Формируем результат
         results = []
         for i, chunk in enumerate(chunks):
+            # Добавляем language и document_type прямо в метаданные, чтобы Chroma могла фильтровать по ним
+            enriched_meta = {**chunk.metadata, 'language': chunk.language, 'document_type': chunk.document_type}
             result = {
                 'chunk_id': chunk.chunk_id,
                 'content': chunk.content,
                 'embedding': embeddings[i].tolist(),
-                'metadata': chunk.metadata,
+                'metadata': enriched_meta,
+                # Сохраняем дублирующие поля для удобства отладки, но основной фильтр будет работать по metadata
                 'language': chunk.language,
                 'document_type': chunk.document_type,
                 'section': chunk.section

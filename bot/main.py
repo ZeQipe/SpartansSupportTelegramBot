@@ -1,7 +1,9 @@
 import os
 import logging
+import re
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, MessageHandler, CallbackQueryHandler, CommandHandler, filters, ContextTypes
+from telegram.constants import ParseMode
 from langdetect import detect, DetectorFactory
 from bot.history_manager import HistoryManager
 # from embeddings.chunker import DocumentChunker  # legacy
@@ -33,12 +35,9 @@ class TelSuppBot:
         """(Re)index documents and provide detailed logging."""
         before_total = self.vector_store.get_stats().get('total_embeddings', 0)
         stats = self.vector_store.load_documents('data', self.chunker, self.embedder)
-        after_total = self.vector_store.get_stats().get('total_embeddings', 0)
-
+        total = self.vector_store.get_stats().get('total_embeddings', 0)
         logger.info(
-            f"Indexing summary: files added {stats['added']}, updated {stats['updated']}, skipped {stats['skipped']}; "
-            f"vectors added {stats['chunks_added']}; total vectors {after_total}"
-        )
+            f"Document indexing stats: added {stats['added']}, updated {stats['updated']}, skipped {stats['skipped']} | total vectors in DB: {total}")
 
         for info in stats['files']:
             logger.info(
@@ -77,16 +76,41 @@ class TelSuppBot:
         try:
             processed_query = self.search.preprocess_query(message_text, query_language)
             contexts = self.search.get_multilingual_context(processed_query, top_k=15)
-            doc_context = contexts.get(query_language, '') or next(iter(contexts.values()), '')
+            def sanitize_emails(text: str):
+                return re.sub(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b', '[email removed]', text)
+
+            doc_context_raw = contexts.get(query_language, '') or next(iter(contexts.values()), '')
+            doc_context = sanitize_emails(doc_context_raw)
             history = self.history_manager.get_history(user_id)
             response = self.llm.generate_support_response(message_text, doc_context, history, language=user_language)
             if '[ESCALATE]' in response:
-                escalate_msg = 'Я вызываю оператора для помощи. Пожалуйста, подождите.' if user_language == 'ru' else 'I\'m calling an operator for assistance. Please wait.'
-                await update.message.reply_text(escalate_msg)
-                response = response.replace('[ESCALATE]', '')
+                # Сразу показываем полный текст без дублирующего системного сообщения
+                response = response.replace('[ESCALATE]', '').lstrip()
+            # Преобразуем **** в жирный Markdown и убираем ### заголовки
+            response = re.sub(r'^#{1,6}\s*', '', response, flags=re.MULTILINE)
+            response = re.sub(r'^\*{4}\s*(.+)', r'**\1**', response, flags=re.MULTILINE)
+
+            # Дополнительная зачистка: если пользователь не запросил источники, удаляем упоминания "источник"/"sources"
+            user_asked_sources = bool(re.search(r'(источник|sources?)', message_text, re.IGNORECASE))
+
+            def remove_sources(text: str):
+                # Удаляем шаблоны вида (источник 1, 2) или (sources 3,4)
+                text = re.sub(r'\(\s*(источник\w*|sources?)\s*[^)]*\)', '', text, flags=re.IGNORECASE)
+                return text
+
+            # Удаляем email
+            response = re.sub(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b', '', response)
+
+            # Удаляем фразы, которые перенаправляют обратно в поддержку (бот сам поддержка)
+            response = re.sub(r'(?i)обратитесь\s+(в|к)?\s*служб[аe]?\s*поддержк[аe]?[^.]*\.?', '', response)
+            response = re.sub(r'(?i)contact\s+support[^.]*\.?', '', response)
+
+            if not user_asked_sources:
+                response = remove_sources(response)
+
             self.history_manager.add_message(user_id, 'user', message_text)
             self.history_manager.add_message(user_id, 'bot', response)
-            await update.message.reply_text(response)
+            await update.message.reply_text(response, parse_mode=ParseMode.MARKDOWN)
         except Exception as e:
             logger.error(f'Error: {e}')
             error_msg = 'Ситуация кажется серьёзной, я уже зову оператора - он подойдёт через минуту.' if user_language == 'ru' else 'The situation seems serious, I\'m calling an operator - they\'ll join in a minute.'

@@ -1,8 +1,12 @@
 import numpy as np
 from typing import List, Dict, Any, Optional
 import os
+import logging
 import chromadb
 from config.settings import CHROMADB_SETTINGS, SEARCH_SETTINGS
+
+# logger for this module
+logger = logging.getLogger(__name__)
 
 class VectorStore:
     """Работа с ChromaDB"""
@@ -35,7 +39,7 @@ class VectorStore:
             for filename in os.listdir(lang_dir):
                 if not filename.endswith('.txt'):
                     continue
-                # Файлы с акциями (promotions) не индексируются – логика сохранена из предыдущей версии
+                # Файлы с акциями (promotions) не индексируются, идут прямо в системные инструкции
                 if 'promotions' in filename.lower():
                     skipped += 1
                     files_info.append({'path': os.path.join(lang_dir, filename), 'status': 'skipped', 'chunks': 0})
@@ -112,17 +116,23 @@ class VectorStore:
         )
         threshold = SEARCH_SETTINGS['similarity_threshold']
 
+        # --- Debug logging --------------------------------------------------
+        logger.debug("VectorStore.search: top_k=%s, language=%s, doc_type=%s, threshold=%.2f", top_k, language, document_type, threshold)
+
         results = []
         # Если ChromaDB вернул None (например, при отсутствии результатов), подставляем пустой список
         documents = (res.get('documents') or [[]])[0]
         metadatas = (res.get('metadatas') or [[]])[0]
         distances = (res.get('distances') or [[]])[0]
 
-        for doc, meta, dist in zip(documents, metadatas, distances):
+        for idx, (doc, meta, dist) in enumerate(zip(documents, metadatas, distances)):
             if doc is None: continue  # Skip empty
             similarity = 1 - dist
             if similarity < threshold: continue
             results.append({'content': doc, 'metadata': meta or {}, 'similarity': similarity})
+            logger.debug("  #%d sim=%.3f section=%s preview=%s", idx+1, similarity, (meta or {}).get('section', '-'), doc[:100].replace('\n',' '))
+
+        logger.debug("VectorStore.search: returned %d chunks after filtering", len(results))
         return results
 
     def search_by_text(self, query_text: str, embedder, **kwargs):

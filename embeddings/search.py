@@ -1,10 +1,14 @@
 from typing import List, Dict, Any, Optional
+import logging
 from .vector_store import VectorStore
 from .embedder import Embedder
 import json
 from config.settings import SEARCH_SETTINGS
 from embeddings.preprocess_deepseek import split_text as split_deepseek
 from embeddings.preprocess_simple import split_text as split_simple
+
+# set up module logger
+logger = logging.getLogger(__name__)
 
 class DocumentSearch:
     """Система поиска по документам"""
@@ -35,7 +39,23 @@ class DocumentSearch:
         """
         processed_query = self.preprocess_query(query, language or 'en')
         query_embedding = self.embedder.embed_text(processed_query)
-        return self.vector_store.search(query_embedding, top_k=top_k, language=language, document_type=document_type)
+        results = self.vector_store.search(
+            query_embedding,
+            top_k=top_k,
+            language=language,
+            document_type=document_type,
+        )
+
+        # --- Console output of top chunks ---------------------------------
+        if results:
+            logger.info("Found %d chunks for query '%s' (lang=%s):", len(results), query, language)
+            for i, r in enumerate(results[:min(top_k, 15)], 1):
+                section = r.get('metadata', {}).get('section', '-')
+                preview = r.get('content', '')[:120].replace('\n', ' ')
+                sim = r.get('similarity', 0)
+                logger.info("  %2d. [%s] %.3f %s", i, section, sim, preview)
+
+        return results
     
     def search_multilingual(self, query: str, top_k: int = 5) -> Dict[str, List[Dict[str, Any]]]:
         """
@@ -99,7 +119,9 @@ class DocumentSearch:
         
         context_parts = []
         for i, result in enumerate(results, 1):
-            context_parts.append(f"Источник {i} (раздел: {result['section']}):\n{result['content']}\n")
+            section = result.get('metadata', {}).get('section') or result.get('section', '-')
+            content = result.get('content', '')
+            context_parts.append(f"Источник {i} (раздел: {section}):\n{content}\n")
         
         return "\n".join(context_parts)
     
