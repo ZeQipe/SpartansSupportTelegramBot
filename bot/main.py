@@ -4,7 +4,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, MessageHandler, CallbackQueryHandler, CommandHandler, filters, ContextTypes
 from langdetect import detect, DetectorFactory
 from bot.history_manager import HistoryManager
-from embeddings.chunker import DocumentChunker
+# from embeddings.chunker import DocumentChunker  # legacy
+from embeddings.line_chunker import LineChunker  # Новая версия чанкинга
 from embeddings.embedder import Embedder
 from embeddings.vector_store import VectorStore
 from embeddings.search import DocumentSearch
@@ -19,7 +20,7 @@ class TelSuppBot:
     def __init__(self, telegram_token: str, deepseek_api_key: str):
         self.application = Application.builder().token(telegram_token).build()
         self.history_manager = HistoryManager()
-        self.chunker = DocumentChunker()
+        self.chunker = LineChunker()  # используем новый алгоритм
         self.embedder = Embedder()
         self.vector_store = VectorStore()
         self.search = DocumentSearch(self.vector_store, self.embedder)
@@ -29,9 +30,20 @@ class TelSuppBot:
         self._setup_handlers()
     
     def load_documents(self):
-        # Efficiently (re)load only changed documents
+        """(Re)index documents and provide detailed logging."""
+        before_total = self.vector_store.get_stats().get('total_embeddings', 0)
         stats = self.vector_store.load_documents('data', self.chunker, self.embedder)
-        logger.info(f"Document indexing stats: added {stats['added']}, updated {stats['updated']}, skipped {stats['skipped']}")
+        after_total = self.vector_store.get_stats().get('total_embeddings', 0)
+
+        logger.info(
+            f"Indexing summary: files added {stats['added']}, updated {stats['updated']}, skipped {stats['skipped']}; "
+            f"vectors added {stats['chunks_added']}; total vectors {after_total}"
+        )
+
+        for info in stats['files']:
+            logger.info(
+                f"  {info['status'].upper():7} {info['path']} | chunks: {info.get('chunks', 0)}"
+            )
     
     def _setup_handlers(self):
         # Command handlers

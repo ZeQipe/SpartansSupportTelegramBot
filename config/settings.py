@@ -11,8 +11,10 @@ load_dotenv(find_dotenv())
 
 # Настройки чанкинга
 CHUNK_SETTINGS = {
-    'chunk_size': 300,  # Target chunk size in tokens
-    'overlap': 50,      # Overlap in tokens
+    # Размер чанка уменьшен, так как теперь вектора формируем по строкам
+    # и хотим укладываться в меньший лимит токенов.
+    'chunk_size': 160,  # Target chunk size in tokens (was 300)
+    'overlap': 25,      # Overlap in tokens (was 50)
 }
 
 # Настройки OpenAI embeddings

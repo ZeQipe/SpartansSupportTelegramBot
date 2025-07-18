@@ -23,15 +23,22 @@ class VectorStore:
         self.collection.upsert(ids=ids, embeddings=embeddings,
                                 metadatas=metadatas, documents=documents)
 
-    def load_documents(self, data_dir: str, chunker, embedder) -> Dict[str, int]:
+    def load_documents(self, data_dir: str, chunker, embedder) -> Dict[str, Any]:
         """Индексирует документы в указанной папке и выводит статистику."""
-        added = updated = skipped = 0
+        added = updated = skipped = 0  # счётчики файлов
+        total_chunks_added = 0  # количество записей (векторов), которые были упакованы в коллекцию
+        files_info: List[Dict[str, Any]] = []  # подробная информация по каждому файлу
         for lang in ['en', 'ru']:
             lang_dir = os.path.join(data_dir, lang)
             if not os.path.isdir(lang_dir):
                 continue
             for filename in os.listdir(lang_dir):
                 if not filename.endswith('.txt'):
+                    continue
+                # Файлы с акциями (promotions) не индексируются – логика сохранена из предыдущей версии
+                if 'promotions' in filename.lower():
+                    skipped += 1
+                    files_info.append({'path': os.path.join(lang_dir, filename), 'status': 'skipped', 'chunks': 0})
                     continue
                 file_path = os.path.join(lang_dir, filename)
                 mtime = os.path.getmtime(file_path)
@@ -43,29 +50,57 @@ class VectorStore:
                     prev_mtime = meta_list[0].get('mtime') if meta_list else None
                     if prev_mtime == mtime:
                         skipped += 1
+                        files_info.append({
+                            'path': file_path,
+                            'status': 'skipped',
+                            'chunks': 0
+                        })
                         continue
                     # обновляем существующие записи
                     self.collection.delete(ids=ids_found)
                     updated += 1
+                    status = 'updated'
                 else:
                     added += 1
+                    status = 'added'
 
+                # Генерируем чанки и добавляем
                 chunks = chunker.process_document(file_path, lang)
                 for c in chunks:
                     c.metadata['mtime'] = mtime
                 self.add_embeddings(embedder.embed_chunks(chunks))
-        return {'added': added, 'updated': updated, 'skipped': skipped}
+
+                total_chunks_added += len(chunks)
+                files_info.append({
+                    'path': file_path,
+                    'status': status,
+                    'chunks': len(chunks)
+                })
+
+        return {
+            'added': added,
+            'updated': updated,
+            'skipped': skipped,
+            'chunks_added': total_chunks_added,
+            'files': files_info,
+        }
 
     # --- Поиск ------------------------------------------------------------------------------
     def _format_filters(self, language: Optional[str], doc_type: Optional[str]):
-        if not language and not doc_type:
-            return None
-        and_filters = []
+        """Формирует where-фильтр для ChromaDB.
+
+        1. Если задан только один из параметров, возвращаем простой словарь вида
+           {"language": "en"} или {"document_type": "terms"}.
+        2. Если заданы оба – объединяем их при помощи $and, как того требует API.
+        3. Если ни один не задан – возвращаем None.
+        """
+        if language and doc_type:
+            return {'$and': [{'language': language}, {'document_type': doc_type}]}
         if language:
-            and_filters.append({'language': language})
+            return {'language': language}
         if doc_type:
-            and_filters.append({'document_type': doc_type})
-        return {'$and': and_filters}
+            return {'document_type': doc_type}
+        return None
 
     def search(self, query_embedding: np.ndarray, *, top_k: int = SEARCH_SETTINGS['default_top_k'],
                language: Optional[str] = None, document_type: Optional[str] = None) -> List[Dict[str, Any]]:

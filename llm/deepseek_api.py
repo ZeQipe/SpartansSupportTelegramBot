@@ -260,9 +260,17 @@ Answer the player now—no extra text, no headers, no signatures."""
             full_user_query += "\n\n" + ("Дополнительные конфигурационные сообщения: " if language == "ru" else "Additional configuration messages: ") + config_messages
 
         # Build messages
+        # DeepSeek (OpenAI-style) API допускает роли 'system', 'user', 'assistant'.
+        # В истории мы храним 'bot' для ответа, поэтому приведём к 'assistant'.
+        normalized_history = [
+            {**msg, 'role': ('assistant' if msg.get('role') == 'bot' else msg.get('role'))}
+            for msg in history
+            if msg.get('role') in ['user', 'bot', 'assistant']
+        ]
+
         messages = [
             {"role": "system", "content": system_prompt}
-        ] + history + [
+        ] + normalized_history + [
             {"role": "user", "content": full_user_query}
         ]
         

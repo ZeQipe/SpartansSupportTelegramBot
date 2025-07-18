@@ -14,13 +14,13 @@ logger = logging.getLogger(__name__)
 
 def test_chunker():
     """Тестирует систему чанкинга"""
-    logger.info("Testing DocumentChunker...")
+    logger.info("Testing LineChunker...")
     
     try:
-        from embeddings.chunker import DocumentChunker
+        from embeddings.line_chunker import LineChunker
         
-        chunker = DocumentChunker()
-        logger.info("✓ DocumentChunker initialized successfully")
+        chunker = LineChunker()
+        logger.info("✓ LineChunker initialized successfully")
         
         # Тестируем на одном документе
         test_file = "data/en/terms.txt"
@@ -36,7 +36,7 @@ def test_chunker():
         
         return True
     except Exception as e:
-        logger.error(f"✗ DocumentChunker test failed: {e}")
+        logger.error(f"✗ LineChunker test failed: {e}")
         return False
 
 def test_embedder():
@@ -126,15 +126,15 @@ def test_deepseek_api():
 
 def test_document_processing():
     """Тестирует полную обработку документов"""
-    logger.info("Testing full document processing...")
+    logger.info("Testing full document processing with LineChunker...")
     
     try:
-        from embeddings.chunker import DocumentChunker
+        from embeddings.line_chunker import LineChunker
         from embeddings.embedder import Embedder
         from embeddings.vector_store import VectorStore
         
         # Инициализация компонентов
-        chunker = DocumentChunker()
+        chunker = LineChunker()
         embedder = Embedder()
         vector_store = VectorStore()
         
@@ -211,7 +211,7 @@ def main():
     
     tests = [
         ("Data Structure", test_data_structure),
-        ("DocumentChunker", test_chunker),
+        ("LineChunker", test_chunker),
         ("Embedder", test_embedder),
         ("VectorStore", test_vector_store),
         ("DocumentSearch", test_search),
