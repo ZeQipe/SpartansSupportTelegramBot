@@ -33,11 +33,26 @@ class HistoryManager:
             self.conn.commit()
     
     def get_history(self, user_id: int) -> List[Dict[str, str]]:
+        """Возвращает последние 20 сообщений за последний час."""
+        from datetime import datetime, timedelta  # локальный импорт, чтобы избежать циклов
+
+        # Вычисляем пороговое время – ровно час назад от текущего момента
+        threshold_time = (datetime.utcnow() - timedelta(hours=1)).strftime('%Y-%m-%d %H:%M:%S')
+
         cursor = self.conn.cursor()
-        # Fetch last 20 messages in insertion order using auto-incremented id for reliable ordering
-        cursor.execute('SELECT role, content FROM messages WHERE user_id = ? ORDER BY id DESC LIMIT 20', (user_id,))
+
+        # Получаем не более 20 последних сообщений, отправленных за последний час
+        cursor.execute('''
+            SELECT role, content FROM messages
+            WHERE user_id = ? AND timestamp >= ?
+            ORDER BY timestamp DESC, id DESC
+            LIMIT 20
+        ''', (user_id, threshold_time))
+
         rows = cursor.fetchall()
-        return [{'role': row[0], 'content': row[1]} for row in reversed(rows)]  # Reverse to chronological order
+
+        # Переворачиваем, чтобы вернуть в хронологическом (старое → новое) порядке
+        return [{'role': row[0], 'content': row[1]} for row in reversed(rows)]
     
     def reset_history(self, user_id: int):
         cursor = self.conn.cursor()

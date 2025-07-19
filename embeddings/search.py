@@ -113,19 +113,32 @@ class DocumentSearch:
             Форматированный контекст для LLM
         """
         results = self.search(query, language, document_type, top_k)
-        
+
         if not results:
             return "Не найдено релевантной информации в документах."
-        
+
+        # --- Удаляем дубликаты по точному совпадению контента ------------------
+        unique_results = []
+        seen_contents = set()
+        for res in results:
+            content = res.get('content', '')
+            if content in seen_contents:
+                continue  # пропускаем дублирующийся чанк
+            seen_contents.add(content)
+            unique_results.append(res)
+            # Если собрали достаточно, прекращаем
+            if len(unique_results) >= top_k:
+                break
+
         context_parts = []
-        for i, result in enumerate(results, 1):
+        for i, result in enumerate(unique_results, 1):
             section = result.get('metadata', {}).get('section') or result.get('section', '-')
             content = result.get('content', '')
             context_parts.append(f"Источник {i} (раздел: {section}):\n{content}\n")
-        
+
         return "\n".join(context_parts)
     
-    def get_multilingual_context(self, query: str, top_k: int = 2) -> Dict[str, str]:
+    def get_multilingual_context(self, query: str, top_k: int = 25) -> Dict[str, str]:
         """
         Получает контекст на обоих языках
         

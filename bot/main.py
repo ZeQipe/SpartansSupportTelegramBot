@@ -108,7 +108,7 @@ class TelSuppBot:
         await update.message.reply_chat_action('typing')
         try:
             processed_query = self.search.preprocess_query(message_text, query_language)
-            contexts = self.search.get_multilingual_context(processed_query, top_k=15)
+            contexts = self.search.get_multilingual_context(processed_query, top_k=25)
             def sanitize_emails(text: str):
                 return re.sub(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b', '[email removed]', text)
 

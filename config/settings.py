@@ -32,7 +32,7 @@ CHROMADB_SETTINGS = {
 
 # Настройки поиска
 SEARCH_SETTINGS = {
-    'default_top_k': 15,  # Количество результатов по умолчанию
+    'default_top_k': 25,  # Количество результатов по умолчанию (было 15)
     'max_top_k': 30,     # Максимальное количество результатов
     'similarity_threshold': 0.3,  # Минимальный порог сходства
     'enable_fuzzy_search': True,

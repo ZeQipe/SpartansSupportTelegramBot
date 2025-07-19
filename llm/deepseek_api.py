@@ -40,26 +40,43 @@ class DeepSeekAPI:
             "temperature": temperature
         }
 
-        # --- Prompt logging ---------------------------------------------------
-        try:
-            os.makedirs('logs', exist_ok=True)
-            log_entry = {
-                'timestamp': time.strftime('%Y-%m-%d %H:%M:%S'),
-                'model': model,
-                'messages': messages
-            }
-            with open('logs/deepseek_prompts.log', 'a', encoding='utf-8') as log_file:
-                log_file.write(json.dumps(log_entry, ensure_ascii=False) + '\n')
-        except Exception as log_err:
-            # If logging fails, we don't interrupt main flow
-            pass
-        
+        # Выполняем запрос к DeepSeek
+        usage: Dict[str, Any] = {}
         try:
             response = requests.post(url, headers=self.headers, json=payload)
             response.raise_for_status()
-            return response.json()
+            response_json: Dict[str, Any] = response.json()
+            usage = response_json.get('usage', {}) or {}
         except requests.exceptions.RequestException as e:
-            return {"error": str(e)}
+            # При ошибке формируем ответ с ошибкой
+            response_json = {"error": str(e)}
+        
+        # --- Расширенное логирование запроса ---------------------------------
+        try:
+            os.makedirs('logs', exist_ok=True)
+            with open('logs/deepseek_prompts.log', 'a', encoding='utf-8') as log_file:
+                log_file.write('---------------------\n')
+                log_file.write(f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+                log_file.write(f"Model: {model}\n")
+
+                # Логируем сообщения - каждый dict на своей строке
+                log_file.write('Messages:\n')
+                for msg in messages:
+                    log_file.write(json.dumps(msg, ensure_ascii=False) + '\n')
+
+                # Логируем usage, если есть
+                if usage:
+                    log_file.write(
+                        f"Tokens — prompt: {usage.get('prompt_tokens', 'N/A')}, "
+                        f"completion: {usage.get('completion_tokens', 'N/A')}, "
+                        f"total: {usage.get('total_tokens', 'N/A')}\n"
+                    )
+                log_file.write('\n')  # Пустая строка в конце записи
+        except Exception:
+            # Не прерываем основной поток при ошибке логирования
+            pass
+
+        return response_json
     
     def create_support_prompt(self, user_query: str, context: str, 
                             language: str = "en") -> List[Dict[str, str]]:
@@ -283,11 +300,19 @@ Strictly reply in the same language as user input."""
             if msg.get('role') in ['user', 'bot', 'assistant']
         ]
 
+        # Формируем список сообщений для DeepSeek
+        # Стартуем с системного промпта
         messages = [
             {"role": "system", "content": system_prompt}
-        ] + normalized_history + [
-            {"role": "user", "content": full_user_query}
-        ]
+        ] + normalized_history
+
+        # --- Изменение: дублируем системные инструкции ---
+        # Если в истории более 5 сообщений, добавляем копию системного промпта
+        if len(normalized_history) > 5:
+            messages.append({"role": "system", "content": system_prompt})
+
+        # В конце добавляем текущее сообщение пользователя
+        messages.append({"role": "user", "content": full_user_query})
         
         # Generate response
         response = self.generate_response(messages, model, max_tokens, temperature)
