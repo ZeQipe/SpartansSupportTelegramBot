@@ -18,6 +18,15 @@ DetectorFactory.seed = 0  # For consistent langdetect
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# --- Additional logger for user requests -----------------------------------
+os.makedirs('logs', exist_ok=True)
+user_logger = logging.getLogger('user_requests')
+user_logger.setLevel(logging.INFO)
+if not user_logger.handlers:
+    req_handler = logging.FileHandler('logs/user_requests.log', encoding='utf-8')
+    req_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+    user_logger.addHandler(req_handler)
+
 class TelSuppBot:
     def __init__(self, telegram_token: str, deepseek_api_key: str):
         self.application = Application.builder().token(telegram_token).build()
@@ -28,6 +37,7 @@ class TelSuppBot:
         self.search = DocumentSearch(self.vector_store, self.embedder)
         self.llm = DeepSeekAPI(deepseek_api_key)
         self.user_languages = {}  # {user_id: 'en' or 'ru'}
+        self.bot_username: str = ""  # будет заполнено при первом обращении
         self.load_documents()
         self._setup_handlers()
     
@@ -59,8 +69,31 @@ class TelSuppBot:
         if update.effective_user is None or update.message is None or update.message.text is None:
             logger.error('Invalid message text')
             return
+
+        # Сырое сообщение
+        message_text: str = update.message.text.strip()
+
+        # Log the incoming request details
+        user_logger.info(f"user_id={update.effective_user.id} username={update.effective_user.username or ''} text={message_text}")
+
+        # --- Ignore group messages unless bot is mentioned first -------------------------
+        if update.effective_chat and update.effective_chat.type in ['group', 'supergroup']:
+            if not self.bot_username:
+                try:
+                    me = await context.bot.get_me()
+                    self.bot_username = (me.username or '').lower()
+                except Exception as e:
+                    logger.warning(f'Failed to fetch bot username: {e}')
+            mention_prefix = f'@{self.bot_username}' if self.bot_username else ''
+            if mention_prefix:
+                if not message_text.lower().startswith(mention_prefix):
+                    return  # бот не упомянут первым
+                # убираем упоминание из начала текста
+                message_text = message_text[len(mention_prefix):].lstrip()
+                if not message_text:
+                    return  # пустой запрос после упоминания
+
         user_id = update.effective_user.id
-        message_text = update.message.text.strip()
         # Auto-detect language and store preference
         query_language = 'en'
         try:

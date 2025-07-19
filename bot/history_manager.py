@@ -34,7 +34,8 @@ class HistoryManager:
     
     def get_history(self, user_id: int) -> List[Dict[str, str]]:
         cursor = self.conn.cursor()
-        cursor.execute('SELECT role, content FROM messages WHERE user_id = ? ORDER BY timestamp DESC LIMIT 20', (user_id,))
+        # Fetch last 20 messages in insertion order using auto-incremented id for reliable ordering
+        cursor.execute('SELECT role, content FROM messages WHERE user_id = ? ORDER BY id DESC LIMIT 20', (user_id,))
         rows = cursor.fetchall()
         return [{'role': row[0], 'content': row[1]} for row in reversed(rows)]  # Reverse to chronological order
     
