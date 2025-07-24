@@ -109,11 +109,11 @@ class TelSuppBot:
         try:
             processed_query = self.search.preprocess_query(message_text, query_language)
             contexts = self.search.get_multilingual_context(processed_query, top_k=25)
-            def sanitize_emails(text: str):
-                return re.sub(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b', '[email removed]', text)
+            # def sanitize_emails(text: str):  # 🔧 Убрали функцию ручного удаления email
+            #     return re.sub(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b', '[email removed]', text)
 
             doc_context_raw = contexts.get(query_language, '') or next(iter(contexts.values()), '')
-            doc_context = sanitize_emails(doc_context_raw)
+            doc_context = doc_context_raw  # 🔧 Перестали удалять email из контекста
             history = self.history_manager.get_history(user_id)
             response = self.llm.generate_support_response(message_text, doc_context, history, language=user_language)
             if '[ESCALATE]' in response:
@@ -132,7 +132,7 @@ class TelSuppBot:
                 return text
 
             # Удаляем email
-            response = re.sub(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b', '', response)
+            # response = re.sub(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b', '', response)  # 🔧 Убрали автоматическое удаление email
 
             # Удаляем фразы, которые перенаправляют обратно в поддержку (бот сам поддержка)
             response = re.sub(r'(?i)обратитесь\s+(в|к)?\s*служб[аe]?\s*поддержк[аe]?[^.]*\.?', '', response)
