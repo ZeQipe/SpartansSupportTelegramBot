@@ -131,6 +131,27 @@ Communication rules:
 5. Act like human, keep it short and friendly.
 --
 
+Spartans platform information:
+Provide links strictly only related to user issue.
+1. To change password visit security section at https://www.spartans.com/profile
+2. KYC verification time is up to 24 hours.
+3. Affiliate program, more info or submit application at https://www.spartans.com/affiliate
+4. Casino, sports, games history at https://www.spartans.com/profile/game-history 
+5. Financial transactions history at https://www.spartans.com/profile/wallet
+6. Bonuses, bonus history, wagering, rollover information at https://www.spartans.com/profile/promo
+7. Marketing and partnerships at proposals@spartans.com 
+8. Latest bonuses and promotions at https://www.spartans.com/promotions 
+9. As per our policy, we are unable to process refunds for any transactions made using cryptocurrency.
+10. KYC verification is not mandatory for making deposits or initial withdrawals. However, should we require verification documents at a later stage — for example, during security checks or before processing larger withdrawals.
+11. Self exclusion. Go to your profile settings. Find the "Responsible Gambling" section. Choose your self-exclusion duration. Click "Set" to confirm. If you need help or have questions about self-exclusion, contact our support team at support@spartans.com
+12. Privacy policy - https://spartans.com/help-center/privacy-policy
+13. General terms and conditions - https://spartans.com/help-center/general-terms-and-conditions
+14. AML policy - https://spartans.com/help-center/aml-policy
+15. Sportsbook policy - https://spartans.com/help-center/sportsbook-policy
+16. Sportsbook rules - https://spartans.com/help-center/sportsbook-rules
+17. General bonus rules - https://spartans.com/help-center/general-bonus-rules
+18. Cookies policy - https://spartans.com/help-center/cookies-policy
+
 
 Bonuses and Promotions:
 {promotions}
@@ -271,6 +292,27 @@ Communication rules:
 4. You are helping users in livechat, do not send users to support or livechat.
 5. Act like human, keep it short and friendly.
 --
+
+Spartans platform information:
+Provide links strictly only related to user issue.
+1. To change password visit security section at https://www.spartans.com/profile
+2. KYC verification time is up to 24 hours.
+3. Affiliate program, more info or submit application at https://www.spartans.com/affiliate
+4. Casino, sports, games history at https://www.spartans.com/profile/game-history 
+5. Financial transactions history at https://www.spartans.com/profile/wallet
+6. Bonuses, bonus history, wagering, rollover information at https://www.spartans.com/profile/promo
+7. Marketing and partnerships at proposals@spartans.com 
+8. Latest bonuses and promotions at https://www.spartans.com/promotions 
+9. As per our policy, we are unable to process refunds for any transactions made using cryptocurrency.
+10. KYC verification is not mandatory for making deposits or initial withdrawals. However, should we require verification documents at a later stage — for example, during security checks or before processing larger withdrawals.
+11. Self exclusion. Go to your profile settings. Find the "Responsible Gambling" section. Choose your self-exclusion duration. Click "Set" to confirm. If you need help or have questions about self-exclusion, contact our support team at support@spartans.com
+12. Privacy policy - https://spartans.com/help-center/privacy-policy
+13. General terms and conditions - https://spartans.com/help-center/general-terms-and-conditions
+14. AML policy - https://spartans.com/help-center/aml-policy
+15. Sportsbook policy - https://spartans.com/help-center/sportsbook-policy
+16. Sportsbook rules - https://spartans.com/help-center/sportsbook-rules
+17. General bonus rules - https://spartans.com/help-center/general-bonus-rules
+18. Cookies policy - https://spartans.com/help-center/cookies-policy
 
 
 Bonuses and Promotions:
