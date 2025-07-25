@@ -138,28 +138,39 @@ class DocumentSearch:
 
         return "\n".join(context_parts)
     
-    def get_multilingual_context(self, query: str, top_k: int = 25) -> Dict[str, str]:
+    def get_multilingual_context(self, query: str, top_k: int = 25, language: Optional[str] = None) -> Dict[str, str]:
         """
-        Получает контекст на обоих языках
+        Получает контекст на обоих языках или только на выбранном языке
         
         Args:
             query: Запрос пользователя
             top_k: Количество чанков на язык
+            language: Если указан, поиск только на этом языке (для 'en' не ищется в 'ru')
             
         Returns:
             Словарь с контекстом по языкам
         """
         contexts = {}
         
-        # Контекст на английском
-        en_context = self.get_context_for_llm(query, 'en', top_k=top_k)
-        if en_context != "Не найдено релевантной информации в документах.":
-            contexts['en'] = en_context
-        
-        # Контекст на русском
-        ru_context = self.get_context_for_llm(query, 'ru', top_k=top_k)
-        if ru_context != "Не найдено релевантной информации в документах.":
-            contexts['ru'] = ru_context
+        # Если указан конкретный язык (например, 'en'), ищем только в нем
+        if language == 'en':
+            en_context = self.get_context_for_llm(query, 'en', top_k=top_k)
+            if en_context != "Не найдено релевантной информации в документах.":
+                contexts['en'] = en_context
+        elif language == 'ru':
+            ru_context = self.get_context_for_llm(query, 'ru', top_k=top_k)
+            if ru_context != "Не найдено релевантной информации в документах.":
+                contexts['ru'] = ru_context
+        else:
+            # Контекст на английском
+            en_context = self.get_context_for_llm(query, 'en', top_k=top_k)
+            if en_context != "Не найдено релевантной информации в документах.":
+                contexts['en'] = en_context
+            
+            # Контекст на русском
+            ru_context = self.get_context_for_llm(query, 'ru', top_k=top_k)
+            if ru_context != "Не найдено релевантной информации в документах.":
+                contexts['ru'] = ru_context
         
         return contexts
     

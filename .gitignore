@@ -1,3 +1,6 @@
 __pycache__
 venv
 .env
+logs/*
+chroma_db/*
+*.db
