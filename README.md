@@ -158,9 +158,6 @@ MIT License
 
 ## Admin prompt update
 
-Set two environment variables for prompt update via `/sys` command:
-
-- `BOT_ADMIN_IDS` – comma-separated Telegram user IDs allowed to update the prompt.
-- `BOT_SYS_PASSWORD` – password requested after `/sys`.
+Set environment variable `BOT_SYS_PASSWORD` for prompt update via `/sys` command.
 
 Sequence: `/sys` → enter password → send new system prompt. Old prompt is archived with timestamp, new one applied immediately without bot restart.

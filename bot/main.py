@@ -44,7 +44,6 @@ class TelSuppBot:
 
         # --- Admin related state -----------------------------------------------------------
         self.admin_states: dict[int, str] = {}  # user_id -> 'idle' | 'await_pwd' | 'await_prompt'
-        self.admin_user_ids: set[int] = {int(uid) for uid in os.getenv('BOT_ADMIN_IDS', '').split(',') if uid.strip().isdigit()}
         self.sys_password: str = os.getenv('BOT_SYS_PASSWORD', '')
 
         self.load_documents()
@@ -80,10 +79,6 @@ class TelSuppBot:
         if update.effective_user is None or update.message is None:
             return
         user_id = update.effective_user.id
-        if user_id not in self.admin_user_ids:
-            await update.message.reply_text("Not authorised")
-            return
-
         self.admin_states[user_id] = 'await_pwd'
         await update.message.reply_text("Enter password:")
 
