@@ -1,7 +1,7 @@
 Casino
 1. 300% Casino Welcome Bonus
 Rules:
- - Min Deposit: $5 (or equivalent for local and Crypto currencies)
+ - Min Deposit: $10 (or equivalent for local and Crypto currencies)
  - Available for the first deposit only
  - Max Bonus: $200 (or equivalent for local and Crypto currencies)
  - Wagering Requirement: 35x the bonus amount
@@ -24,7 +24,7 @@ Rules:
 Sports
 1. 300% Sports Welcome Bonus
 Rules:
- - Min Deposit: $5 (or equivalent for local and Crypto currencies)
+ - Min Deposit: $10 (or equivalent for local and Crypto currencies)
  - Available for the first deposit only
  - Max Bonus: $200 (or equivalent for local and Crypto currencies)
  - Wagering Requirement: 10x the bonus amount
