@@ -1,6 +1,7 @@
 import os
 import logging
 import re
+from dotenv import load_dotenv
 from datetime import datetime
 from pathlib import Path
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
@@ -251,6 +252,8 @@ class TelSuppBot:
         self.application.run_polling()
 
 def main():
+    # Load .env file variables if present
+    load_dotenv()
     telegram_token = os.getenv('TELEGRAM_TOKEN')
     deepseek_api_key = os.getenv('DEEPSEEK_API_KEY')
     if not telegram_token:
