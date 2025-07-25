@@ -1,6 +1,8 @@
 import os
 import logging
 import re
+from datetime import datetime
+from pathlib import Path
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, MessageHandler, CallbackQueryHandler, CommandHandler, filters, ContextTypes
 from telegram.constants import ParseMode
@@ -38,6 +40,12 @@ class TelSuppBot:
         self.llm = DeepSeekAPI(deepseek_api_key)
         self.user_languages = {}  # {user_id: 'en' or 'ru'}
         self.bot_username: str = ""  # будет заполнено при первом обращении
+
+        # --- Admin related state -----------------------------------------------------------
+        self.admin_states: dict[int, str] = {}  # user_id -> 'idle' | 'await_pwd' | 'await_prompt'
+        self.admin_user_ids: set[int] = {int(uid) for uid in os.getenv('BOT_ADMIN_IDS', '').split(',') if uid.strip().isdigit()}
+        self.sys_password: str = os.getenv('BOT_SYS_PASSWORD', '')
+
         self.load_documents()
         self._setup_handlers()
     
@@ -60,11 +68,38 @@ class TelSuppBot:
         self.application.add_handler(CommandHandler("help", self.help_command))
         self.application.add_handler(CommandHandler("stats", self.stats_command))
         self.application.add_handler(CommandHandler("language", self.language_command))
+        self.application.add_handler(CommandHandler("sys", self.sys_command))
 
         # Callback & message handlers
         self.application.add_handler(CallbackQueryHandler(self.handle_callback))
         self.application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, self.handle_message))
     
+    async def sys_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Initiate admin flow for updating system prompt."""
+        if update.effective_user is None or update.message is None:
+            return
+        user_id = update.effective_user.id
+        if user_id not in self.admin_user_ids:
+            await update.message.reply_text("Not authorised")
+            return
+
+        self.admin_states[user_id] = 'await_pwd'
+        await update.message.reply_text("Enter password:")
+
+    # --------------------------------------------------------------------------
+    def _save_new_system_prompt(self, prompt_text: str):
+        """Archive existing prompt and write new one atomically."""
+        prompt_dir = Path('prompts')
+        prompt_dir.mkdir(exist_ok=True)
+        target = prompt_dir / 'system_prompt.txt'
+        if target.exists():
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            target.rename(prompt_dir / f'system_prompt_{timestamp}.txt')
+        # Write new prompt
+        tmp_file = prompt_dir / f'.tmp_{os.getpid()}'
+        tmp_file.write_text(prompt_text, encoding='utf-8')
+        tmp_file.replace(target)
+
     async def handle_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         if update.effective_user is None or update.message is None or update.message.text is None:
             logger.error('Invalid message text')
@@ -72,6 +107,22 @@ class TelSuppBot:
 
         # Сырое сообщение
         message_text: str = update.message.text.strip()
+
+        # ---------- Admin flow interception -----------------------------------
+        admin_state = self.admin_states.get(update.effective_user.id, 'idle')
+        if admin_state == 'await_pwd':
+            if message_text == self.sys_password:
+                self.admin_states[update.effective_user.id] = 'await_prompt'
+                await update.message.reply_text('Password accepted. Send new system prompt:')
+            else:
+                self.admin_states[update.effective_user.id] = 'idle'
+                await update.message.reply_text('Incorrect password. Abort.')
+            return  # Do not continue normal processing
+        elif admin_state == 'await_prompt':
+            self._save_new_system_prompt(message_text)
+            self.admin_states[update.effective_user.id] = 'idle'
+            await update.message.reply_text('New system prompt saved.')
+            return
 
         # Log the incoming request details
         user_logger.info(f"user_id={update.effective_user.id} username={update.effective_user.username or ''} text={message_text}")
